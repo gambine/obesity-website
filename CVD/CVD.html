@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+		<title> Heart Life </title>
+		<script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js'></script>
+		<link rel = "stylesheet" href = "../reset.css"/>
+		<link rel = "stylesheet" href = "../styleSheetBasic.css"/>
+		<link rel="stylesheet" href="../registration.css" type="text/css" />
+		<link rel="stylesheet" href="../style.css" type="text/css" media="screen" />
+		<style type='text/css'>
+
+#nav {
+	font-size: 20px;
+	background-color: #DE4343;
+	display: block;
+	width: 100%;
+	height: 50px;
+    z-index: 1000;
+    position: relative;
+}
+
+  </style>
+		<script type='text/javascript'>
+//<![CDATA[ 
+
+  $(function() {
+    // Stick the #nav to the top of the window
+    var nav = $('#nav');
+    var navHomeY = nav.offset().top;
+    var isFixed = false;
+    var $w = $(window);
+    $w.scroll(function() {
+        var scrollTop = $w.scrollTop();
+        var shouldBeFixed = scrollTop > navHomeY;
+        if (shouldBeFixed && !isFixed) {
+            nav.css({
+                position: 'fixed',
+                top: 0,
+                left: nav.offset().left,
+                width: nav.width()
+            });
+            isFixed = true;
+        }
+        else if (!shouldBeFixed && isFixed)
+        {
+            nav.css({
+                position: 'static'
+            });
+            isFixed = false;
+        }
+    });
+});
+
+//]]>  
+</script>
+
+	</head>
+	<body>
+	<div id = "topSection">
+		<div id = "topDiv1">
+			<div id = "topDiv2">
+				<div id = "websiteLogo">
+					<a href = "../home/home.html"><img src = "../WebsiteLogo.jpg" alt = "HeartLife"></a>
+				</div>
+				<div id = "logIn">
+					<a href="../tools/login in form.html">LOG IN</a>
+					|
+					<a href="../tools/registration form.html">SIGN UP</a>
+				</div><div id ="search">
+ <script>
+  (function() {
+    var cx = '000421825559379877846:ysuiupqabvi';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+        '//cse.google.com/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+</script>
+<gcse:search></gcse:search>
+		</div>
+			</div>
+			
+			<div>
+			<nav id = "nav">
+				<ul id = "homeBar">
+					<li class = "homeBarItems"><a href = "../home/home.html"> Home </a></li>
+					<li class ="line"> | </li>
+					
+					
+					<li class = "homeBarItems"><a href = "../CVD/CVD.html"> Cardiovascular Disease </a> 
+						<ul>
+							<li class='subList1'><a href='#'>Women & Children</a></li>
+							<li class='subList1'><a href='../CVD/Types of CVD.html'>Types of CVD</a></li>
+							<li class='subList1'><a href='#'>Rehabilitation</a></li>
+							<li class='subList1'><a href='#'>Cause of CVD</a></li>
+							<li class='subList1'><a href='#'>Emergencies</a></li>
+							<li class='subList1'><a href='#'>Find a Specialist</a></li>
+						</ul>
+					</li>
+					<li class ="line"> | </li>	
+					
+					<li class = "homeBarItems"><a href = "../prevention/prevention.html"> Prevention </a>
+						<ul>
+							<li class='subList2'><a href='#'>Active Lifestyle</a></li>
+							<li class='subList2'><a href='../prevention/healthyeating.html'>Healthier Food</a></li>
+							<li class='subList2'><a href='#'>Initiative for Change</a></li>
+							<li class='subList2'><a href='#'>Daily Habits</a></li>
+							<li class='subList2'><a href='#'>Medical Screening</a></li>
+							<li class='subList2'><a href='#'>Ongoing Research</a></li>
+						</ul>
+					</li>
+					<li class ="line"> | </li>	
+						
+					<li class = "homeBarItems"><a href = "../treatment/treatment.html"> Treatment </a>
+						<ul>
+							<li class='subList3'><a href='#'>Surgery</a></li>
+							<li class='subList3'><a href='#'>General Treatment</a></li>
+							<li class='subList3'><a href='#'>Specific Treatments</a></li>
+							<li class='subList3'><a href='#'>Medicines</a></li>
+							<li class='subList3'><a href='#'>Therapy</a></li>
+							<li class='subList3'><a href='#'>Treatment Research</a></li>
+						</ul>
+					</li>	
+					<li class ="line"> | </li>
+					<li class = "homeBarItems"><a href = "../tools/tools.html"> Tools </a>
+						<ul>
+							<li class='subList4'><a href='../tools/tools-bmi.html'>BMI Calculator</a></li>
+							<li class='subList4'><a href='../tools/tools-calorie.html'>Calorie Estimator</a></li>
+							
+						</ul>
+					</li>	
+					<li class ="line"> | </li>
+					<li class = "homeBarItems"><a href = "../contactUs/contactUs.html">Contact Us </a></li>
+					<li class ="line"> | </li>
+					<li class = "homeBarItems"><a href = "../aboutUs/aboutUs.html"> About Us </a></li>
+				</ul>
+				<br class = "clearLeft"/>
+			</nav>
+			</div>
+		</div>
+	</div>
+	<div id = "middleSection" style = "height: 1000px;">
+		<div>
+			<div style = "padding: 0px 0px 0px 10px;">
+				<a id="Type" href = "../home/home.html">HOME</a> > <a id="Type" href = "../CVD/CVD.html">CARDIOVASCULAR DISEASE</a>
+			</div>
+			<div id = "articleHeader">
+					<h3>Cardiovascular Disease</h3>
+			</div>
+			<div>
+				<p>Cardiovascular disease (CVD) is a collective term for diseases of the heart and blood vessels. The term commonly includes diseases such as coronary heart disease, heart failure, cardiomyopathy, congenital heart disease, peripheral vascular disease and stroke. Many of these conditions can be life-threatening.
+			</div>
+			<div style = "padding: 40px 20px 20px 20px; float: right; margin-right: 150px;">
+				<div id = "typeCVD">
+				<a href = "../CVD/Types of CVD.html" style = " height: 3000px; width: 3000px;"><img src = "../clear.png"></a>
+				</div>
+				
+				<div>
+					<h4 style = "margin-left: 0px;">Types of CVD</h4>
+				</div>
+				
+			</div>
+			<div style = "padding: 40px 20px 20px 20px; margin-left: 150px;">
+				<div id = "womenc">
+				<a href = "#" style = " height: 3000px; width: 3000px;"><img src = "../clear.png"></a>
+				</div>
+				<div>
+					<h4 style = "margin-left: 0px;">Women & Children</h4>
+				</div>
+			</div>
+			<div style = "padding: 20px; float: right; margin-right: 150px;">
+				<div id = "causes">
+				<a href = "#" style = " height: 3000px; width: 3000px;"><img src = "../clear.png"></a>
+				</div>
+				<div>
+					<h4 style = "margin-left: 0px;">Causes of CVD</h4>
+				</div>
+			</div>
+			<div style = "padding: 20px; margin-left: 150px;">
+				<div id = "rehab">
+				<a href = "#" style = " height: 3000px; width: 3000px;"><img src = "../clear.png"></a>
+				</div>
+				<div>
+					<h4 style = "margin-left: 0px;">Rehabilitation</h4>
+				</div>
+			</div>
+			<div style = "padding: 20px; float: right; margin-right: 140px;">
+				<div id = "find">
+				<a href = "#" style = " height: 3000px; width: 3000px;"><img src = "../clear.png"></a>
+				</div>
+				<div>
+					<h4 style = "margin-left: 0px;">Find a Specialist</h4>
+				</div>
+			</div>
+			<div style = "padding: 20px; margin-left: 150px;">
+				<div id = "emergency">
+				<a href = "#" style = " height: 3000px; width: 3000px;"><img src = "../clear.png"></a>
+				</div>
+				<div>
+					<h4 style = "margin-left: 0px;">Emergencies</h4>
+				</div>
+			</div>
+		</div>
+			<!--
+			<div style = "width: 310px; height 310px; float:left; padding: 20px;">
+				<div style = "width: 310px; height 310px;">
+					<a href = "../CVD/Types of CVD.html"><img style = "width: 310px; height: 310px;"src = "../CVDtype.jpg" alt = "Types of CVD"></a>
+				</div>
+				<div style = "text-align: center; color: red; border: 2px solid red;">
+					Types of Cardiovascular Disease
+				</div>
+			</div>
+			<div style = "width: 310px; height 310px; float: right;padding: 20px;">
+				<div style = "width: 310px; height 310px;">
+					<a href = "#"><img style = "width: 310px; height: 310px;"src = "../CVDcause.jpg" alt = "Causes of CVD"></a>
+				</div>
+				<div style = "text-align: center; color: red; border: 2px solid red;">
+					Major Causes of Cardiovascular Disease
+				</div>
+			</div>
+			<div style = "width: 310px; height 310px; float: left;padding: 20px 20px 20px 30px;">
+				<div style = "width: 310px; height 310px;">
+					<a href = "#"><img style = "width: 310px; height: 310px;"src = "../CVDwmn.jpg" alt = "Woman and child"></a>
+				</div>
+				<div style = "text-align: center; color: red; border: 2px solid red;">
+					Women and Children
+				</div>
+			</div>
+			<div style = "width: 310px; height 310px; float: right;padding: 20px;">
+				<div style = "width: 310px; height 310px;">
+					<a href = "#"><img style = "width: 310px; height: 310px;"src = "../CVDemergency.jpg" alt = "Emergency"></a>
+				</div>
+				<div style = "text-align: center; color: red; border: 2px solid red;">
+					What to do in an Emergency
+				</div>
+			</div>
+			<div style = "width: 310px; height 310px; float: left;padding: 20px;">
+				<div style = "width: 310px; height 310px;">
+					<a href = "#"><img style = "width: 310px; height: 310px;"src = "../CVDrehab.jpg" alt = "Rehabilitation"></a>
+				</div>
+				<div style = "text-align: center; color: red; border: 2px solid red;">
+					Cardiac Rehabilitation
+				</div>
+			</div>
+			<div style = "width: 310px; height 310px; float: right;padding: 20px 30px 20px 20px;">
+				<div style = "width: 310px; height 310px;">
+					<a href = "#"><img style = "width: 310px; height: 310px;"src = "../CVDspec.jpg" alt = "Specialist"></a>
+				</div>
+				<div style = "text-align: center; color: red; border: 2px solid red;">
+					Find a Specialist
+				</div>
+			</div>-->
+		</div>
+	</div>
+	<div id =  "bottomSection">
+		<div>
+		<nav>
+			<ul id = "homeBar">
+				<li class = "homeBarItems"><a href = "../home/home.html"> Home </a></li>
+				<li class ="line"> | </li>	
+				<li class = "homeBarItems"><a href = "../CVD/CVD.html"> Cardiovascular Disease </a> </li>
+				<li class ="line"> | </li>	
+				<li class = "homeBarItems"><a href = "../prevention/prevention.html"> Prevention </a></li>
+				<li class ="line"> | </li>	
+				<li class = "homeBarItems"><a href = "../treatment/treatment.html"> Treatment </a></li>
+				<li class ="line"> | </li>	
+				<li class = "homeBarItems"><a href = "../tools/tools.html"> Tools </a></li>
+				<li class ="line"> | </li>	
+				<li class = "homeBarItems"><a href = "../contactUs/contactUs.html">Contact Us </a></li>
+				<li class ="line"> | </li>	
+				<li class = "homeBarItems"><a href = "../aboutUs/aboutUs.html"> About Us </a></li>
+			</ul>
+		</nav>
+		</div>
+		<div id = "bottomGroup">
+		<div id = "bottomSecond">
+		<nav>
+			<ul id = "bottomBar">
+				<li class = "homeBarItems"><a href = "../help-FAQ/help-FAQ.html"> Help/FAQ </a></li>
+				|
+				<li class = "homeBarItems"><a href = "../privacyPolicy/privacyPolicy.html"> Privacy Policy </a></li>
+				|
+				<li class = "homeBarItems"><a href = "../feedbackForm/feedbackForm.html"> Feedback Form </a></li>
+				|
+				<li class = "homeBarItems"><a href = "../siteMap/siteMap.html"> Sitemap </a></li>
+			
+			</ul>
+		</nav>
+		</div>
+			<div id = "bottomLogo">
+				<a href = "../home/home.html"><img src = "../WebsiteLogo.gif" alt = "HeartLife"></a>
+			</div>
+		</div>
+		</div>
+	</body>
+</html>
+		
+		

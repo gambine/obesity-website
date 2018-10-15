@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+		<title> Heart Life </title>
+		<script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js'></script>
+		<link rel = "stylesheet" href = "../reset.css"/>
+		<link rel = "stylesheet" href = "../styleSheetBasic.css"/>
+		<link rel="stylesheet" href="../registration.css" type="text/css" />
+		<link rel="stylesheet" href="../style.css" type="text/css" media="screen" />
+		<style type='text/css'>
+
+#nav {
+	font-size: 20px;
+	background-color: #DE4343;
+	display: block;
+	width: 100%;
+	height: 50px;
+    z-index: 1000;
+    position: relative;
+}
+
+  </style>
+		<script type='text/javascript'>
+//<![CDATA[ 
+
+  $(function() {
+    // Stick the #nav to the top of the window
+    var nav = $('#nav');
+    var navHomeY = nav.offset().top;
+    var isFixed = false;
+    var $w = $(window);
+    $w.scroll(function() {
+        var scrollTop = $w.scrollTop();
+        var shouldBeFixed = scrollTop > navHomeY;
+        if (shouldBeFixed && !isFixed) {
+            nav.css({
+                position: 'fixed',
+                top: 0,
+                left: nav.offset().left,
+                width: nav.width()
+            });
+            isFixed = true;
+        }
+        else if (!shouldBeFixed && isFixed)
+        {
+            nav.css({
+                position: 'static'
+            });
+            isFixed = false;
+        }
+    });
+});
+
+//]]>  
+</script>
+
+	</head>
+	<body>
+<div id = "topSection">
+		<div id = "topDiv1">
+			<div id = "topDiv2">
+				<div id = "websiteLogo">
+					<a href = "../home/home.html"><img src = "../WebsiteLogo.jpg" alt = "HeartLife"></a>
+				</div>
+				<div id = "logIn">
+					<a href="../tools/login in form.html">LOG IN</a>
+					|
+					<a href="../tools/registration form.html">SIGN UP</a>
+				</div><div id ="search">
+ <script>
+  (function() {
+    var cx = '000421825559379877846:ysuiupqabvi';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+        '//cse.google.com/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+</script>
+<gcse:search></gcse:search>
+		</div>
+			</div>
+			
+			<div>
+			<nav id = "nav">
+				<ul id = "homeBar">
+					<li class = "homeBarItems"><a href = "../home/home.html"> Home </a></li>
+					<li class ="line"> | </li>
+					
+					
+					<li class = "homeBarItems"><a href = "../CVD/CVD.html"> Cardiovascular Disease </a> 
+						<ul>
+							<li class='subList1'><a href='#'>Women & Children</a></li>
+							<li class='subList1'><a href='../CVD/Types of CVD.html'>Types of CVD</a></li>
+							<li class='subList1'><a href='#'>Rehabilitation</a></li>
+							<li class='subList1'><a href='#'>Cause of CVD</a></li>
+							<li class='subList1'><a href='#'>Emergencies</a></li>
+							<li class='subList1'><a href='#'>Find a Specialist</a></li>
+						</ul>
+					</li>
+					<li class ="line"> | </li>	
+					
+					<li class = "homeBarItems"><a href = "../prevention/prevention.html"> Prevention </a>
+						<ul>
+							<li class='subList2'><a href='#'>Active Lifestyle</a></li>
+							<li class='subList2'><a href='../prevention/healthyeating.html'>Healthier Food</a></li>
+							<li class='subList2'><a href='#'>Initiative for Change</a></li>
+							<li class='subList2'><a href='#'>Daily Habits</a></li>
+							<li class='subList2'><a href='#'>Medical Screening</a></li>
+							<li class='subList2'><a href='#'>Ongoing Research</a></li>
+						</ul>
+					</li>
+					<li class ="line"> | </li>	
+						
+					<li class = "homeBarItems"><a href = "../treatment/treatment.html"> Treatment </a>
+						<ul>
+							<li class='subList3'><a href='#'>Surgery</a></li>
+							<li class='subList3'><a href='#'>General Treatment</a></li>
+							<li class='subList3'><a href='#'>Specific Treatments</a></li>
+							<li class='subList3'><a href='#'>Medicines</a></li>
+							<li class='subList3'><a href='#'>Therapy</a></li>
+							<li class='subList3'><a href='#'>Treatment Research</a></li>
+						</ul>
+					</li>	
+					<li class ="line"> | </li>
+					<li class = "homeBarItems"><a href = "../tools/tools.html"> Tools </a>
+						<ul>
+							<li class='subList4'><a href='../tools/tools-bmi.html'>BMI Calculator</a></li>
+							<li class='subList4'><a href='../tools/tools-calorie.html'>Calorie Estimator</a></li>
+							
+						</ul>
+					</li>	
+					<li class ="line"> | </li>
+					<li class = "homeBarItems"><a href = "../contactUs/contactUs.html">Contact Us </a></li>
+					<li class ="line"> | </li>
+					<li class = "homeBarItems"><a href = "../aboutUs/aboutUs.html"> About Us </a></li>
+				</ul>
+				<br class = "clearLeft"/>
+			</nav>
+			</div>
+		</div>
+	</div>
+	<div id = "middleSection" style = "height: 1000px;">
+			<div id = "articleTotal">
+				<div>
+					<a href = "../home/home.html" id="Type">HOME</a> > <a href = "../CVD/CVD.html" id="Type">CARDIOVASCULAR DISEASE</a> > <a href = "../CVD/Types of CVD.html" id="Type"> TYPES OF CVD </a>
+				</div>
+				<div id = "articleHeader">
+					<h3 style = "float: left;">Types of Cardiovascular Disease</h3>
+					<div style = "float: right;">
+					<input type="button" class = "button"
+					  onClick="window.print()" 
+					  value="Print This Page"/>
+					</div>
+				</div>
+				<div id = "article" style = "padding: 12px 3px 3px 10px; margin: 8px; width: 700px">
+					<p>
+Cardiovascular disease is a term that refers to more than one disease of the circulatory system including the heart and blood vessels, whether the blood vessels are affecting the lungs, the brain, kidneys or other parts of the body. Cardiovascular diseases are the leading cause of death in adult Canadian men and women.
+					<p><br>
+The following six types of cardiovascular disease are highlighted below:
+					<p><br>
+Ischemic heart disease is the most common type of cardiovascular disease in Canada and other industrialized countries around the world. It refers to problems with the circulation of blood to the heart muscle. A partial blockage of one or more of the coronary arteries can result in a lack of enough oxygenated blood (ischemia) thus causing symptoms such as angina (chest pain) and dyspnea (shortness of breath). A complete blockage of an artery causes necrosis (damage to the tissues) or a myocardial infarction, commonly known as a heart attack.
+					<p><br>
+Cerebrovascular disease (Stroke) refers to a problem with the circulation of blood in the blood vessels of the brain. A blockage with effects lasting less than 24 hours is referred to as a transient ischemic attack. A complete blockage with long-term effects is referred to as a cerebrovascular thrombosis (clot) or accident or a stroke. Sometimes, a blood vessel in the brain can burst resulting in long term effects.
+					<p><br>
+Peripheral vascular disease affects the circulation primarily in the legs]. Patients with this disease typically complain of pain in their calves especially when walking.
+					<p><br>
+Heart failure occurs when the pumping action of the heart cannot provide enough blood to the rest of the body as it is needed. This can happen as a result of damage to the heart muscle, for example from a heart attack, or from excessive consumption of alcohol, or because of a heart muscle disease also called a cardiomyopathy. Patients with heart failure usually suffer from shortness of breath and swelling of the legs.
+					<p><br>
+Rheumatic heart disease once common in Canada is a major problem in many poor countries. This disease begins with a bacterial infection in c
+hildhood, affecting joints and heart valves. The heart problems appear many years later. Often the valves have to be replaced by an operation. 
+					<p><br>
+Other infections can occur attacking the inner tissues of the heart including the valves (endocarditis) and the outer tissue overlying the heart (pericarditis).
+Congenital heart disease is a problem with the structure of the heart arising because of a birth defect. These anatomical defects can be as simple as a small hole in one of the inside walls of the heart or they can be very complex, affecting the way blood flows through the heart and lungs. Some congenital heart problems result in death unless immediately corrected by surgical intervention. Others cause disability to varying degrees and are treated by surgery later in life with correction of the problem sometimes requiring more than a single operation.
+					
+					</p> 
+				</div>
+			</div>
+			<div style = "width: 200px; padding: 3px 10px; border-right: solid #DE4343 2px; height: 1000px;" id = "articleLinks">
+				<div>
+					<h4 style = "border-bottom: solid red 2px;">QUICKLINKS</h4>
+				</div>
+				<ul>
+							<li class = "redbox"><a href="../CVD/what is CVD.html">What is CVD</a></li>
+							<li class = "redbox"><a href="#">Heart Failure</a></li>
+							<li class = "redbox"><a href="#">Prevention</a></li>
+							<li class = "redbox"><a href="#">Treatment</a></li>
+							<li class = "redbox"><a href="#">Cardiac Rehabilitation</a></li>
+							<li class = "redbox"><a href="#">Fact sheets</a></li>
+				</ul>
+				<div id = "relevant"> <!--please move this div to the bottom of the parent div-->
+					<h4 style = "border-bottom: solid red 2px; font-size: 20px;">find out more...</h4>
+					<ul>
+							<li class = "redbox"><a href="../CVD/CVD.html">Cardiovascular Disease</a></li>
+							<li class = "redbox"><a href="#"></a>Cerebrovascular Disease</li>
+							<li class = "redbox"><a href="#"></a>Peripheral Vascular Disease</li>
+							<li class = "redbox"><a href="#"></a>Heart Failure</li>
+							<li class = "redbox"><a href="#"></a>Congenital Heart Disease</li>
+							<li class = "redbox"><a href="#"></a>Ischemic Heart Disease</li>
+							<li class = "redbox"><a href="#"></a>More Heart Diseases</li>
+					</ul>
+				</div>
+			</div>
+	</div>
+	<div id =  "bottomSection">
+		<div>
+		<nav>
+			<ul id = "homeBar">
+				<li class = "homeBarItems"><a href = "../home/home.html"> Home </a></li>
+				<li class ="line"> | </li>	
+				<li class = "homeBarItems"><a href = "../CVD/CVD.html"> Cardiovascular Disease </a> </li>
+				<li class ="line"> | </li>	
+				<li class = "homeBarItems"><a href = "../prevention/prevention.html"> Prevention </a></li>
+				<li class ="line"> | </li>	
+				<li class = "homeBarItems"><a href = "../treatment/treatment.html"> Treatment </a></li>
+				<li class ="line"> | </li>	
+				<li class = "homeBarItems"><a href = "../tools/tools.html"> Tools </a></li>
+				<li class ="line"> | </li>	
+				<li class = "homeBarItems"><a href = "../contactUs/contactUs.html">Contact Us </a></li>
+				<li class ="line"> | </li>	
+				<li class = "homeBarItems"><a href = "../aboutUs/aboutUs.html"> About Us </a></li>
+			</ul>
+		</nav>
+		</div>
+		<div id = "bottomGroup">
+		<div id = "bottomSecond">
+		<nav>
+			<ul id = "bottomBar">
+				<li class = "homeBarItems"><a href = "../help-FAQ/help-FAQ.html"> Help/FAQ </a></li>
+				|
+				<li class = "homeBarItems"><a href = "../privacyPolicy/privacyPolicy.html"> Privacy Policy </a></li>
+				|
+				<li class = "homeBarItems"><a href = "../feedbackForm/feedbackForm.html"> Feedback Form </a></li>
+				|
+				<li class = "homeBarItems"><a href = "../siteMap/siteMap.html"> Sitemap </a></li>
+			
+			</ul>
+		</nav>
+		</div>
+			<div id = "bottomLogo">
+				<a href = "../home/home.html"><img src = "../WebsiteLogo.gif" alt = "HeartLife"></a>
+			</div>
+		</div>
+		</div>
+	</body>
+</html>

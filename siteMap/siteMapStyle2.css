@@ -1,0 +1,198 @@
+#topSection{
+	background-color: rgba(242, 0, 0, 0.87);
+	
+}
+/* some to half of the styling is done in the html document itself because css doesn't always work for me*/
+
+#FF{
+	font-family:cursive;
+}
+
+h3{
+	font-family: "serif";
+	font-size: 41px;
+	text-align: left;
+	padding: 0px 0px 10px 0px;
+}
+
+#bottomSection{
+	display: block;
+	margin: 0 auto;
+	width: 75%;
+}
+
+#relevant {
+	bottom: 0;
+}
+
+#homeBar{
+	color: white;
+	text-align: center;
+	padding: 20px 0px;
+}
+
+#homeBar a{
+	color: white;
+}
+.homeBarItems{
+	display: inline;
+	padding: 25px 22px;
+	color: white;
+	text-transform: uppercase;
+	font-family: "Times New Roman";
+	
+	
+}
+#bottomBar{
+	margin-left:251px;
+	display:inline;
+}
+
+.redbox{
+	padding: 5px 5px;
+	border: 2px solid red;
+	margin: 10px;
+	color: red;
+	text-align: center;
+	/* cant change the text colour for some reason */
+}
+
+.redbox a{
+	color: red;
+}
+
+#articleTotal{
+	float: right;
+	width: 815px;
+	display: inline-block;
+	overflow: auto;
+	padding: 0px 15px 0px 0px;
+}
+
+a{
+	text-decoration: none;
+	color:white;
+}
+
+a:hover{
+color: yellowgreen;
+}
+
+h1{
+	position: relative;
+	right: 24%;
+	top: 15%;
+	padding: 30px 0px 20px 0px;
+	font-size: 45px;
+	font-family: sacramento,cursive;
+	color: white;
+	text-align: center;
+}
+
+h2{
+	position: relative;
+	right: 33%;
+	padding: 20px 0px 30px 0px;
+	font-size: 45px;
+	font-family: sacramento,cursive;
+	color: white;
+	text-align: center;
+}
+
+h4{
+	position: relative;
+	padding: 10px 10px 10px 18px;
+	font-size: 28px;
+	color: red;
+}
+
+h5 {
+	padding: 10px 20px;
+	font-size: 21px;
+	text-decoration: underline;
+}
+
+h6{
+	margin-left:1200px;
+	font-size:16px;
+}
+
+li:hover{
+	color: greenyellow;
+}
+
+img{
+	display: block;
+	margin: 0 auto;
+}
+
+#surfer{
+	padding-top: 20px;
+}
+
+*{
+	margin: 0px;
+}
+
+#middleSection{
+	padding: 30px 0px;
+	margin: 0px auto;
+	width: 1070px;
+	height: auto;
+	background-color: rgba(255, 255, 255, 0.84);
+	
+}
+
+element {
+    text-align: center;
+}
+
+html{
+	background-image: url(Background.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+
+#article {
+	padding: 5px 5px 5px 5px;
+	margin: 0px 0px 10px 0px;
+}
+
+#articleHeader{
+	border-bottom: solid red 2px;
+	padding: 10px 10px;
+	margin: 0px 0px 10px 0px;
+}
+
+#quicklinks {
+	float: right;
+	color: red;
+	width: 300px;
+	padding: 10px;
+	margin: 0;
+	display: inline-block;
+] /*should leave this square bracket alone, I think anything after this square bracket doesn't count */
+
+#quicklinkslist {
+	padding: 10px 10px;
+	position: relative;
+	color: red;
+	
+}
+
+#recipe {
+	display: inline-block;
+	padding: 20px 10px;
+	float: left;
+}
+
+#articleLinks {
+	width: 150px;
+	float: left;
+	display: block;
+}
+
+#aboutus {
+	text-align:center;
+	color:black;
+}

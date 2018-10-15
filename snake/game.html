@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> Heart Life </title>
+		<link rel = "stylesheet" href = "../reset.css"/>
+		<link rel = "stylesheet" href = "../styleSheetBasic.css"/>
+		<link rel="stylesheet" href="../registration.css" type="text/css" />
+		<link rel="stylesheet" href="../style.css" type="text/css" media="screen" />
+		
+	</head>
+	<body>
+	<div id = "topSection">
+		<div id = "topDiv1">
+			<div id = "topDiv2">
+				<div id = "websiteLogo">
+					<a href = "../home/home.html"><img src = "../WebsiteLogo.jpg" alt = "HeartLife"></a>
+				</div>
+				<div id = "logIn">
+					<a href="../tools/login in form.html">LOG IN</a>
+					|
+					<a href="../tools/registration form.html">SIGN UP</a>
+				</div><div id ="search">
+ <script>
+  (function() {
+    var cx = '000421825559379877846:ysuiupqabvi';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+        '//cse.google.com/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+</script>
+<gcse:search></gcse:search>
+		</div>
+			</div>
+			
+			<div>
+			<nav id = "nav">
+				<ul id = "homeBar">
+					<li class = "homeBarItems"><a href = "../home/home.html"> Home </a></li>
+					<li class ="line"> | </li>
+					
+					
+					<li class = "homeBarItems"><a href = "../CVD/CVD.html"> Cardiovascular Disease </a> 
+						<ul>
+							<li class='subList1'><a href='#'>Women & Children</a></li>
+							<li class='subList1'><a href='../CVD/Types of CVD.html'>Types of CVD</a></li>
+							<li class='subList1'><a href='#'>Rehabilitation</a></li>
+							<li class='subList1'><a href='#'>Cause of CVD</a></li>
+							<li class='subList1'><a href='#'>Emergencies</a></li>
+							<li class='subList1'><a href='#'>Find a Specialist</a></li>
+						</ul>
+					</li>
+					<li class ="line"> | </li>	
+					
+					<li class = "homeBarItems"><a href = "../prevention/prevention.html"> Prevention </a>
+						<ul>
+							<li class='subList2'><a href='#'>Active Lifestyle</a></li>
+							<li class='subList2'><a href='../prevention/healthyeating.html'>Healthier Food</a></li>
+							<li class='subList2'><a href='#'>Initiative for Change</a></li>
+							<li class='subList2'><a href='#'>Daily Habits</a></li>
+							<li class='subList2'><a href='#'>Medical Screening</a></li>
+							<li class='subList2'><a href='#'>Ongoing Research</a></li>
+						</ul>
+					</li>
+					<li class ="line"> | </li>	
+						
+					<li class = "homeBarItems"><a href = "../treatment/treatment.html"> Treatment </a>
+						<ul>
+							<li class='subList3'><a href='#'>Surgery</a></li>
+							<li class='subList3'><a href='#'>General Treatment</a></li>
+							<li class='subList3'><a href='#'>Specific Treatments</a></li>
+							<li class='subList3'><a href='#'>Medicines</a></li>
+							<li class='subList3'><a href='#'>Therapy</a></li>
+							<li class='subList3'><a href='#'>Treatment Research</a></li>
+						</ul>
+					</li>	
+					<li class ="line"> | </li>
+					<li class = "homeBarItems"><a href = "../tools/tools.html"> Tools </a>
+						<ul>
+							<li class='subList4'><a href='../tools/tools-bmi.html'>BMI Calculator</a></li>
+							<li class='subList4'><a href='../tools/tools-calorie.html'>Calorie Estimator</a></li>
+							
+						</ul>
+					</li>	
+					<li class ="line"> | </li>
+					<li class = "homeBarItems"><a href = "../contactUs/contactUs.html">Contact Us </a></li>
+					<li class ="line"> | </li>
+					<li class = "homeBarItems"><a href = "../aboutUs/aboutUs.html"> About Us </a></li>
+				</ul>
+				<br class = "clearLeft"/>
+			</nav>
+			</div>
+		</div>
+	</div>
+	<div id = "middleSection">
+		<div style="padding:0px 0px 0px 10px;">
+			<a id="Type" href="../home/home.html">HOME</a>
+			 > 
+			 <a id="Type" href="#">HEALTHY SNAKE</a>
+		</div>
+		<div id="articleHeader">	
+			<h3>HEALTHY SNAKE</h3>
+		</div>
+		<section id = "game">	
+		
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<div style="display:none;">
+		  <img id="source" src="apple.png"
+			   width="300" height="227">
+		</div>
+		<div style="display:none;">
+		  <img id="source2" src="burger.jpg"
+			   width="300" height="227">
+		</div>
+		
+		<style>
+			canvas
+			{
+				background:white;
+				margin-left: 5%;
+			}
+			#controls
+			{
+				display:inline;
+				top:0;
+				right:0;
+				margin-top: 30px;
+				margin-right: 90px
+			}
+		</style>
+		<script type="text/javascript">
+		var snake = window.snake || {};
+		function launchFullscreen(element) {
+		  if(element.requestFullscreen) {
+			element.requestFullscreen();
+		  } else if(element.mozRequestFullScreen) {
+			element.mozRequestFullScreen();
+		  } else if(element.webkitRequestFullscreen) {
+			element.webkitRequestFullscreen();
+		  } else if(element.msRequestFullscreen) {
+			element.msRequestFullscreen();
+		  }
+		}
+		window.onload = function(){
+			document.addEventListener("fullscreenchange", function(){snake.game.adjust();});
+			document.addEventListener("webkitfullscreenchange", function(){snake.game.adjust();});
+			document.addEventListener("mozfullscreenchange", function(){snake.game.adjust();});
+			document.addEventListener("MSFullscreenChange", function(){snake.game.adjust();});
+
+			snake.game = (function()
+			{
+				var canvas = document.getElementById('canvas');
+				var ctx = canvas.getContext('2d');
+				var status=false;
+				var score = 0;
+				var old_direction = 'right';
+				var direction = 'right';
+				var block = 10;
+				var score = 0;
+				var refresh_rate = 250;
+				var pos = [[5,1],[4,1],[3,1],[2,1],[1,1]];
+				var scoreboard = document.getElementById('scoreboard');
+				var control = document.getElementById('controls');
+				var keys = {
+					37 : 'left',
+					38 : 'up',
+					39 : 'right',
+					40 : 'down'
+					};
+				function adjust()
+				{
+					if (document.fullscreenElement || document.webkitFullscreenElement || document.mozFullScreenElement || document.msFullscreenElement )
+					{
+						canvas.width=window.innerWidth;
+						canvas.height=window.innerHeight;
+						control.style.display='none';
+					}
+					else
+					{
+						canvas.width=600;
+						canvas.height=400;
+						control.style.display='inline';
+					}
+				}
+				var food = [Math.round(Math.random(4)*(canvas.width - 30)), Math.round(Math.random(4)*(canvas.height - 30)),];
+				var junk = [Math.round(Math.random(4)*(canvas.width - 30)), Math.round(Math.random(4)*(canvas.height - 30)),];
+				while(junk == food){
+					junk = [Math.round(Math.random(4)*(canvas.width - 30)), Math.round(Math.random(4)*(canvas.height - 30)),];
+				}
+				function todraw()
+				{
+					for(var i = 0; i < pos.length; i++)
+					{
+						draw(pos[i]);
+					}
+				}
+				function giveLife()
+				{
+					var nextPosition = pos[0].slice();
+					switch(old_direction)
+					{
+						case 'right':
+							nextPosition[0] += 1;
+							break;
+						case 'left':
+							nextPosition[0] -= 1;
+							break;
+						case 'up':
+							nextPosition[1] -= 1;
+							break;
+						case 'down':
+							nextPosition[1] += 1;
+							break;    
+					}
+					pos.unshift(nextPosition);
+					pos.pop();
+				}
+				function grow()
+				{
+					var nextPosition = pos[0].slice();
+					switch(old_direction)
+					{
+						case 'right':
+							nextPosition[0] += 1;
+							break;
+						case 'left':
+							nextPosition[0] -= 1;
+							break;
+						case 'up':
+							nextPosition[1] -= 1;
+							break;
+						case 'down':
+							nextPosition[1] += 1;
+							break;    
+					}
+					pos.unshift(nextPosition);
+				}
+				function loop()
+				{
+					var end = 0;
+					
+					ctx.clearRect(0,0,canvas.width,canvas.height);
+					todraw();
+					giveLife();
+					feed();
+					if(is_catched(pos[0][0]*block,pos[0][1]*block,block,block,food[0],food[1],30,30))
+					{
+						score += 10;
+						createfood();
+						scoreboard.innerHTML = score;
+						grow();
+						if(refresh_rate > 100)
+						{
+							refresh_rate -=5;
+						}
+					}
+					else if(is_catched(pos[0][0]*block,pos[0][1]*block,block,block,junk[0],junk[1],30,30))
+					{
+							document.getElementById('pause').disabled='true';
+							snake.game.status=false;
+							ctx.clearRect(0,0,canvas.width,canvas.height);
+							ctx.fillStyle='red';
+							ctx.font='40px san-serif';
+							ctx.fillText('Game Over.',200,100);
+							ctx.fillStyle='blue';
+							ctx.font='35px san-serif';
+							ctx.fillText('You Must Eat Healthy To Stay Alive!',50,200);
+							ctx.font = '20px san-serif';
+							ctx.fillStyle='#000000';
+							ctx.fillText('Press Restart Button to Play Again',160,300);
+							end = 1;
+							throw ('Game Over');
+
+					}
+					
+					
+					
+					
+					snake.game.status = setTimeout(function() { loop(); },refresh_rate);
+				}
+				window.onkeydown = function(event){
+					 direction = keys[event.keyCode];
+						if(direction)
+						{
+							setWay(direction);
+							event.preventDefault();
+						}
+					};
+				function setWay(direction)
+				{
+					switch(direction)
+					{
+						case 'left':
+							if(old_direction!='right')
+							{
+								old_direction = direction;
+							}
+							break;
+						case 'right':
+							if(old_direction!='left')
+							{
+								old_direction = direction;
+							}
+							break;
+						case 'up':
+							if(old_direction!='down')
+							{
+								old_direction = direction;
+							}
+							break;
+						case 'down':
+							if(old_direction!='up')
+							{
+								old_direction = direction;
+							}
+							break;
+					}
+
+				}
+				function feed()
+				{
+				
+				
+				
+					var apple = document.getElementById("source");
+					var burger = document.getElementById("source2");
+					ctx.beginPath();
+					ctx.drawImage(apple,food[0],food[1],30,30);
+					ctx.drawImage(burger,junk[0],junk[1],30,30);
+					ctx.fill();
+					ctx.closePath();
+				}
+				
+				
+				function createfood()
+				{
+					food = [Math.round(Math.random(4)*600)-30, Math.round(Math.random(4)*400)-30];
+					junk = [Math.round(Math.random(4)*600)-30, Math.round(Math.random(4)*400)-30];
+					
+					while(food==junk){
+					junk = [Math.round(Math.random(4)*600)-30, Math.round(Math.random(4)*400)-30];
+					}
+				}
+				function is_catched(ax,ay,awidth,aheight,bx,by,bwidth,bheight) {
+					return !(
+					((ay + aheight) < (by)) ||
+					(ay > (by + bheight)) ||
+					((ax + awidth) < bx) ||
+					(ax > (bx + bwidth))
+					);
+				}
+				function draw(pos)
+				{
+					var x = pos[0] * block;
+					var y = pos[1] * block;
+					if(x >= canvas.width || x <= 0 || y >= canvas.height || y<= 0)
+					{
+							document.getElementById('pause').disabled='true';
+							snake.game.status=false;
+							ctx.clearRect(0,0,canvas.width,canvas.height);
+							ctx.fillStyle='red';
+							ctx.font='40px san-serif';
+							ctx.fillText('Game Over.',200,100);
+							ctx.fillStyle='blue';
+							ctx.font='35px san-serif';
+							ctx.fillText('Watch Out for Walls!',150,200);
+							ctx.font = '20px san-serif';
+							ctx.fillStyle='#000000';
+							ctx.fillText('Press Restart Button to Play Again',160,300);
+							throw ('Game Over');
+					}
+					else
+					{
+						ctx.beginPath();
+						ctx.fillStyle='green';
+						ctx.fillRect(x,y,block,block);
+						ctx.closePath();
+					}
+				}
+				function pause(elem)
+				{
+					if(snake.game.status)
+					{
+						clearTimeout(snake.game.status);
+						snake.game.status=false;
+						elem.value='Play'
+					}
+					else
+					{
+						loop();
+						elem.value='Pause';
+					}
+				}
+				function begin()
+				{
+					loop();
+				}
+				function restart()
+				{
+					location.reload();
+				}
+				function start()
+				{
+					ctx.fillStyle='white';
+					ctx.fillRect(0,0,canvas.width,canvas.height);
+					var img = new Image();
+					img.onload = function()
+					{
+						ctx.drawImage(img,0,0,canvas.width,canvas.height);
+					}
+					img.src ='snake2.png';
+				}
+				function fullscreen()
+				{
+					launchFullscreen(canvas);
+				}
+				return {
+					pause: pause,
+					restart : restart,
+					start : start,
+					begin: begin,
+					fullscreen : fullscreen,
+					adjust : adjust,
+				};
+			})();
+			snake.game.start();
+		}
+		</script>
+			<div>
+				<canvas width="600" height="400" id="canvas" style="border:1px solid #333;" onclick="snake.game.begin();">
+			</canvas>
+			<div id="controls" style="float:right; text-align:center;">
+				<input type="button" id="pause" value="Play" onClick="snake.game.pause(this);" accesskey="p">
+				<input type="button" id="restart" value="Restart" onClick="snake.game.restart();">
+				<br/><br/>
+				<input type="button" id="fullscreen" value="Play Fullscreen" onClick="snake.game.fullscreen();">
+				<br/><br/>
+					<div style="font-size:24px;">
+				Score : 
+				<span id="scoreboard">0</span>
+				<br><br><u><b>How To Play</u></b>
+				<br><br>Use Arrow Keys to Control
+				<br><br>Don't Hit Walls
+				<br><br>Click to Speed Up
+				<br><br>Eat Healthy to Stay Alive!
+				</div>
+		</div>
+	</div>
+		
+			
+		</section>
+	</div>
+	<div id =  "bottomSection">
+		<div>
+		<nav>
+			<ul id = "homeBar">
+				<li class = "homeBarItems"><a href = "../home/home.html"> Home </a></li>
+				<li class ="line"> | </li>	
+				<li class = "homeBarItems"><a href = "../CVD/CVD.html"> Cardiovascular Disease </a> </li>
+				<li class ="line"> | </li>	
+				<li class = "homeBarItems"><a href = "../prevention/prevention.html"> Prevention </a></li>
+				<li class ="line"> | </li>	
+				<li class = "homeBarItems"><a href = "../treatment/treatment.html"> Treatment </a></li>
+				<li class ="line"> | </li>	
+				<li class = "homeBarItems"><a href = "../tools/tools.html"> Tools </a></li>
+				<li class ="line"> | </li>	
+				<li class = "homeBarItems"><a href = "../contactUs/contactUs.html">Contact Us </a></li>
+				<li class ="line"> | </li>	
+				<li class = "homeBarItems"><a href = "../aboutUs/aboutUs.html"> About Us </a></li>
+			</ul>
+		</nav>
+		</div>
+		<div id = "bottomGroup">
+		<div id = "bottomSecond">
+		<nav>
+			<ul id = "bottomBar">
+				<li class = "homeBarItems"><a href = "../help-FAQ/help-FAQ.html"> Help/FAQ </a></li>
+				|
+				<li class = "homeBarItems"><a href = "../privacyPolicy/privacyPolicy.html"> Privacy Policy </a></li>
+				|
+				<li class = "homeBarItems"><a href = "../feedbackForm/feedbackForm.html"> Feedback Form </a></li>
+				|
+				<li class = "homeBarItems"><a href = "../siteMap/siteMap.html"> Sitemap </a></li>
+			
+			</ul>
+		</nav>
+		</div>
+			<div id = "bottomLogo">
+				<a href = "../home/home.html"><img src = "../WebsiteLogo.gif" alt = "HeartLife"></a>
+			</div>
+		</div>
+		</div>
+	</body>
+</html>
+		
+		

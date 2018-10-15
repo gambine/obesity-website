@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> Heart Life </title>
+		<link rel = "stylesheet" href = "../reset.css"/>
+		<link rel = "stylesheet" href = "../styleSheetBasic.css"/>
+		<link rel="stylesheet" href="bmistyle2.css">
+		<link rel="stylesheet" href="../registration.css" type="text/css" />
+		<link rel="stylesheet" href="../style.css" type="text/css" media="screen" />
+		<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="bmi.js"></script>
+	</head>
+	<body>
+	<div id = "topSection">
+		<div id = "topDiv1">
+			<div id = "topDiv2">
+				<div id = "websiteLogo">
+					<a href = "../home/home.html"><img src = "../WebsiteLogo.jpg" alt = "HeartLife"></a>
+				</div>
+				<div id = "logIn">
+					<a href="../tools/login in form.html">LOG IN</a>
+					|
+					<a href="../tools/registration form.html">SIGN UP</a>
+				</div><div id ="search">
+ <script>
+  (function() {
+    var cx = '000421825559379877846:ysuiupqabvi';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+        '//cse.google.com/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+</script>
+<gcse:search></gcse:search>
+		</div>
+			</div>
+			
+			<div>
+			<nav id = "nav">
+				<ul id = "homeBar">
+					<li class = "homeBarItems"><a href = "../home/home.html"> Home </a></li>
+					<li class ="line"> | </li>
+					
+					
+					<li class = "homeBarItems"><a href = "../CVD/CVD.html"> Cardiovascular Disease </a> 
+						<ul>
+							<li class='subList1'><a href='#'>Women & Children</a></li>
+							<li class='subList1'><a href='../CVD/Types of CVD.html'>Types of CVD</a></li>
+							<li class='subList1'><a href='#'>Rehabilitation</a></li>
+							<li class='subList1'><a href='#'>Cause of CVD</a></li>
+							<li class='subList1'><a href='#'>Emergencies</a></li>
+							<li class='subList1'><a href='#'>Find a Specialist</a></li>
+						</ul>
+					</li>
+					<li class ="line"> | </li>	
+					
+					<li class = "homeBarItems"><a href = "../prevention/prevention.html"> Prevention </a>
+						<ul>
+							<li class='subList2'><a href='#'>Active Lifestyle</a></li>
+							<li class='subList2'><a href='../prevention/healthyeating.html'>Healthier Food</a></li>
+							<li class='subList2'><a href='#'>Initiative for Change</a></li>
+							<li class='subList2'><a href='#'>Daily Habits</a></li>
+							<li class='subList2'><a href='#'>Medical Screening</a></li>
+							<li class='subList2'><a href='#'>Ongoing Research</a></li>
+						</ul>
+					</li>
+					<li class ="line"> | </li>	
+						
+					<li class = "homeBarItems"><a href = "../treatment/treatment.html"> Treatment </a>
+						<ul>
+							<li class='subList3'><a href='#'>Surgery</a></li>
+							<li class='subList3'><a href='#'>General Treatment</a></li>
+							<li class='subList3'><a href='#'>Specific Treatments</a></li>
+							<li class='subList3'><a href='#'>Medicines</a></li>
+							<li class='subList3'><a href='#'>Therapy</a></li>
+							<li class='subList3'><a href='#'>Treatment Research</a></li>
+						</ul>
+					</li>	
+					<li class ="line"> | </li>
+					<li class = "homeBarItems"><a href = "../tools/tools.html"> Tools </a>
+						<ul>
+							<li class='subList4'><a href='../tools/tools-bmi.html'>BMI Calculator</a></li>
+							<li class='subList4'><a href='../tools/tools-calorie.html'>Calorie Estimator</a></li>
+							
+						</ul>
+					</li>	
+					<li class ="line"> | </li>
+					<li class = "homeBarItems"><a href = "../contactUs/contactUs.html">Contact Us </a></li>
+					<li class ="line"> | </li>
+					<li class = "homeBarItems"><a href = "../aboutUs/aboutUs.html"> About Us </a></li>
+				</ul>
+				<br class = "clearLeft"/>
+			</nav>
+			</div>
+		</div>
+	</div>
+	<div id = "middleSection">
+		<div class="calculator-container">
+				<h2 id = "heading">BMI Calculator</h2>
+					<form>	
+						<!-- radio buttons -->
+						<div class="radio">
+							<label class="radio-inline"><input type="radio" name="sex" id="male">Male
+							</label>
+							<label class="radio-inline"><input type="radio" name="sex" id="female">Female
+							</label>
+						</div>
+						<!-- Forms -->
+						<div class="col-sm-3 col-xs-6">
+							<label for="height">Height (cms)</label>
+							<input type="number" class="form-control" id="height" name="height" placeholder="eg. 160">
+						</div>
+
+						<div class="col-sm-3 col-xs-6">
+							<label for="weight">Weight (kgs)</label>
+							<input type="number" class="form-control" id="weight" name="weight" placeholder="eg. 60">
+						</div>
+						<!-- Buttons -->
+						<div class="col-sm-6 col-xs-8">
+							<button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#hide" onClick="calculateBMI()">Calculate BMI</button>
+							<button type="button" class="btn btn-primary" onClick="reset()">Reset</button>
+						</div>
+
+
+					</form>
+			</div>
+
+		<div id="hide" class="results-container collapse">
+			<h2 class="results-head">Your BMI is...</h2>
+			<!-- visual BMI representation -->
+			<div class="bmiNumResult col-sm-4 col-xs-4">
+				<svg class="circle" height="120" width="120">
+  					<circle cx="55" cy="55" r="55" fill="#FF5050"></circle>  
+				</svg> 
+				<p class="bmiResult" id="bmiOutput"></p>
+			</div>
+			<!-- bmi interpretation -->
+			<div class="bmiCommentResult col-sm-8 col-xs-4">
+				<p class="results-interp" id="bmiComment"></p>
+			</div>
+		</div>
+	</div>
+	<div id =  "bottomSection">
+		<div>
+		<nav>
+			<ul id = "homeBar">
+				<li class = "homeBarItems"><a href = "../home/home.html"> Home </a></li>
+				<li class ="line"> | </li>	
+				<li class = "homeBarItems"><a href = "../CVD/CVD.html"> Cardiovascular Disease </a> </li>
+				<li class ="line"> | </li>	
+				<li class = "homeBarItems"><a href = "../prevention/prevention.html"> Prevention </a></li>
+				<li class ="line"> | </li>	
+				<li class = "homeBarItems"><a href = "../treatment/treatment.html"> Treatment </a></li>
+				<li class ="line"> | </li>	
+				<li class = "homeBarItems"><a href = "../tools/tools.html"> Tools </a></li>
+				<li class ="line"> | </li>	
+				<li class = "homeBarItems"><a href = "../contactUs/contactUs.html">Contact Us </a></li>
+				<li class ="line"> | </li>	
+				<li class = "homeBarItems"><a href = "../aboutUs/aboutUs.html"> About Us </a></li>
+			</ul>
+		</nav>
+		</div>
+		<div id = "bottomGroup">
+		<div id = "bottomSecond">
+		<nav>
+			<ul id = "bottomBar">
+				<li class = "homeBarItems"><a href = "../help-FAQ/help-FAQ.html"> Help/FAQ </a></li>
+				|
+				<li class = "homeBarItems"><a href = "../privacyPolicy/privacyPolicy.html"> Privacy Policy </a></li>
+				|
+				<li class = "homeBarItems"><a href = "../feedbackForm/feedbackForm.html"> Feedback Form </a></li>
+				|
+				<li class = "homeBarItems"><a href = "../siteMap/siteMap.html"> Sitemap </a></li>
+			
+			</ul>
+		</nav>
+		</div>
+			<div id = "bottomLogo">
+				<a href = "../home/home.html"><img src = "../WebsiteLogo.gif" alt = "HeartLife"></a>
+			</div>
+		</div>
+		</div>
+	</body>
+</html>
+		
+		

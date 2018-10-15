@@ -1,0 +1,490 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html class="supernova"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title> Heart Life </title>
+    <script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js'></script>
+    <link rel = "stylesheet" href = "../reset.css"/>
+    <link rel = "stylesheet" href = "../styleSheetBasic.css"/>
+    <link rel="stylesheet" href="../style.css" type="text/css" media="screen" />
+    <style type='text/css'>
+
+#nav {
+  font-size: 20px;
+  background-color: #DE4343;
+  display: block;
+  width: 100%;
+  height: 50px;
+    z-index: 1000;
+    position: relative;
+}
+
+  </style>
+    <script type='text/javascript'>
+//<![CDATA[ 
+
+  $(function() {
+    // Stick the #nav to the top of the window
+    var nav = $('#nav');
+    var navHomeY = nav.offset().top;
+    var isFixed = false;
+    var $w = $(window);
+    $w.scroll(function() {
+        var scrollTop = $w.scrollTop();
+        var shouldBeFixed = scrollTop > navHomeY;
+        if (shouldBeFixed && !isFixed) {
+            nav.css({
+                position: 'fixed',
+                top: 0,
+                left: nav.offset().left,
+                width: nav.width()
+            });
+            isFixed = true;
+        }
+        else if (!shouldBeFixed && isFixed)
+        {
+            nav.css({
+                position: 'static'
+            });
+            isFixed = false;
+        }
+    });
+});
+
+//]]>  
+</script>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="alternate" type="application/json+oembed" href="https://www.jotform.com/oembed/?format=json&amp;url=http%3A%2F%2Fwww.jotform.com%2Fform%2F52533169071857" title="oEmbed Form"><link rel="alternate" type="text/xml+oembed" href="https://www.jotform.com/oembed/?format=xml&amp;url=http%3A%2F%2Fwww.jotform.com%2Fform%2F52533169071857" title="oEmbed Form">
+<meta property="og:title" content="FeedbackForm" >
+<meta property="og:url" content="http://www.jotform.co/form/52533169071857" >
+<meta property="og:description" content="Please click the link to complete this form.">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+<meta name="HandheldFriendly" content="true" />
+<title>FeedbackForm</title>
+<link type="text/css" rel="stylesheet" href="css/styles/form.css?v3.3.9027"/>
+<link href="css/calendarview.css?v3.3.9027" rel="stylesheet" type="text/css" />
+<link type="text/css" rel="stylesheet" href="https://d2g9qbzl5h49rh.cloudfront.net/css/styles/nova.css?3.3.9027" />
+<link type="text/css" media="print" rel="stylesheet" href="https://d2g9qbzl5h49rh.cloudfront.net/css/printForm.css?3.3.9027" />
+<style type="text/css">
+    .form-label-left{
+        width:150px !important;
+    }
+    .form-line{
+        padding-top:12px;
+        padding-bottom:12px;
+    }
+    .form-label-right{
+        width:150px !important;
+    }
+    .form-all{
+        width:690px;
+        color:#555 !important;
+        font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Verdana, sans-serif;
+        font-size:14px;
+    }
+    .form-radio-item label, .form-checkbox-item label, .form-grading-label, .form-header{
+        color: #555;
+    }
+
+</style>
+
+<link type="text/css" rel="stylesheet" href="https://secure.jotform.co/themes/CSS/5494597b700cc4f6668b4568.css?session=47593862770245&themeRevisionID=55c085fb977cdf6d158b4567"/>
+<script src="https://d2g9qbzl5h49rh.cloudfront.net/js/prototype.js?v=3.3.9027" type="text/javascript"></script>
+<script src="https://d2g9qbzl5h49rh.cloudfront.net/js/vendor/json2.js?v=3.3.9027" type="text/javascript"></script>
+<script src="https://d2g9qbzl5h49rh.cloudfront.net/js/protoplus.js?v=3.3.9027" type="text/javascript"></script>
+<script src="https://d2g9qbzl5h49rh.cloudfront.net/js/protoplus-ui-form.js?v=3.3.9027" type="text/javascript"></script>
+<script src="https://d2g9qbzl5h49rh.cloudfront.net/js/jotform.js?v=3.3.9027" type="text/javascript"></script>
+<script src="https://d2g9qbzl5h49rh.cloudfront.net/js/calendarview.js?v=3.3.9027" type="text/javascript"></script>
+<script type="text/javascript">
+   JotForm.init(function(){
+      setTimeout(function() {
+          $('input_28').hint('ex: myname@example.com');
+       }, 20);
+      JotForm.alterTexts({"alphabetic":"This field can only contain letters","alphanumeric":"This field can only contain letters and numbers.","confirmClearForm":"Are you sure you want to clear the form","confirmEmail":"E-mail does not match","email":"Enter a valid e-mail address","incompleteFields":"There are incomplete required fields. Please complete them.","lessThan":"Your score should be less than","numeric":"This field can only contain numeric values","pleaseWait":"Please wait...","required":"This field is required.","uploadExtensions":"You can only upload following files:","uploadFilesize":"File size cannot be bigger than:"});
+	JotForm.clearFieldOnHide="disable";
+	JotForm.onSubmissionError="jumpToSubmit";
+   });
+</script>
+</head>
+<body>
+<div id = "topSection">
+    <div id = "topDiv1">
+      <div id = "topDiv2">
+        <div id = "websiteLogo">
+          <a href = "../home/home.html"><img src = "../WebsiteLogo.jpg" alt = "HeartLife"></a>
+        </div>
+        <div id = "logIn">
+          <a href="../tools/login in form.html">LOG IN</a>
+          |
+          <a href="../tools/registration form.html">SIGN UP</a>
+        </div>
+      </div>
+      <div>
+      <nav id = "nav">
+        <ul id = "homeBar">
+					<li class = "homeBarItems"><a href = "../home/home.html"> Home </a></li>
+					<li class ="line"> | </li>
+					
+					
+					<li class = "homeBarItems"><a href = "../CVD/CVD.html"> Cardiovascular Disease </a> 
+						<ul>
+							<li class='subList1'><a href='#'>Women & Children</a></li>
+							<li class='subList1'><a href='../CVD/Types of CVD.html'>Types of CVD</a></li>
+							<li class='subList1'><a href='#'>Rehabilitation</a></li>
+							<li class='subList1'><a href='#'>Cause of CVD</a></li>
+							<li class='subList1'><a href='#'>Emergencies</a></li>
+							<li class='subList1'><a href='#'>Find a Specialist</a></li>
+						</ul>
+					</li>
+					<li class ="line"> | </li>	
+					
+					<li class = "homeBarItems"><a href = "../prevention/prevention.html"> Prevention </a>
+						<ul>
+							<li class='subList2'><a href='#'>Active Lifestyle</a></li>
+							<li class='subList2'><a href='../prevention/healthyeating.html'>Healthier Food</a></li>
+							<li class='subList2'><a href='#'>Initiative for Change</a></li>
+							<li class='subList2'><a href='#'>Daily Habits</a></li>
+							<li class='subList2'><a href='#'>Medical Screening</a></li>
+							<li class='subList2'><a href='#'>Ongoing Research</a></li>
+						</ul>
+					</li>
+					<li class ="line"> | </li>	
+						
+					<li class = "homeBarItems"><a href = "../treatment/treatment.html"> Treatment </a>
+						<ul>
+							<li class='subList3'><a href='#'>Surgery</a></li>
+							<li class='subList3'><a href='#'>General Treatment</a></li>
+							<li class='subList3'><a href='#'>Specific Treatments</a></li>
+							<li class='subList3'><a href='#'>Medicines</a></li>
+							<li class='subList3'><a href='#'>Therapy</a></li>
+							<li class='subList3'><a href='#'>Treatment Research</a></li>
+						</ul>
+					</li>	
+					<li class ="line"> | </li>
+					<li class = "homeBarItems"><a href = "../tools/tools.html"> Tools </a>
+						<ul>
+							<li class='subList4'><a href='../tools/tools-bmi.html'>BMI Calculator</a></li>
+							<li class='subList4'><a href='../tools/tools-calorie.html'>Calorie Estimator</a></li>
+							
+						</ul>
+					</li>	
+					<li class ="line"> | </li>
+					<li class = "homeBarItems"><a href = "../contactUs/contactUs.html">Contact Us </a></li>
+					<li class ="line"> | </li>
+					<li class = "homeBarItems"><a href = "../aboutUs/aboutUs.html"> About Us </a></li>
+				</ul>
+        <br class = "clearLeft"/>
+      </nav>
+      </div>
+    </div>
+  </div>
+  <div style = "margin: 0 auto;">
+<form class="jotform-form" action="https://secure.jotform.co/submit.php" method="post" name="form_52533169071857" id="52533169071857" accept-charset="utf-8" style = "margin: 0 auto;">
+  <input type="hidden" name="formID" value="52533169071857" />
+  <div class="form-all">
+    <ul class="form-section page-section">
+      <li id="cid_1" class="form-input-wide" data-type="control_head">
+        <div class="form-header-group">
+          <div class="header-text httal htvam">
+            <h1 id="header_1" class="form-header">
+              Feedback Form
+            </h1>
+            <div id="subHeader_1" class="form-subHeader">
+              Please let us know your experience with our website
+            </div>
+          </div>
+        </div>
+      </li>
+      <li class="form-line" data-type="control_radio" id="id_3">
+        <label class="form-label form-label-top" id="label_3" for="input_3"> Do you have any acknowledge about cardiovascular before searching our website? </label>
+        <div id="cid_3" class="form-input-wide jf-required">
+          <div class="form-single-column">
+            <span class="form-radio-item" style="clear:left;">
+              <span class="dragger-item">
+              </span>
+              <input type="radio" class="form-radio" id="input_3_0" name="q3_doYou" value="Yes" />
+              <label id="label_input_3_0" for="input_3_0"> Yes </label>
+            </span>
+            <span class="form-radio-item" style="clear:left;">
+              <span class="dragger-item">
+              </span>
+              <input type="radio" class="form-radio" id="input_3_1" name="q3_doYou" value="No" />
+              <label id="label_input_3_1" for="input_3_1"> No </label>
+            </span>
+          </div>
+        </div>
+      </li>
+      <li class="form-line" data-type="control_text" id="id_22">
+        <div id="cid_22" class="form-input-wide">
+          <div id="text_22" class="form-html">
+            <p><span style="font-size:12pt;">Please rate the quality of our website</span></p>
+          </div>
+        </div>
+      </li>
+      <li class="form-line" data-type="control_radio" id="id_8">
+        <label class="form-label form-label-right form-label-auto" id="label_8" for="input_8"> Overall satisfaction level </label>
+        <div id="cid_8" class="form-input jf-required">
+          <div class="form-single-column">
+            <span class="form-radio-item" style="clear:left;">
+              <span class="dragger-item">
+              </span>
+              <input type="radio" class="form-radio" id="input_8_0" name="q8_overallSatisfaction" value="Excellent" />
+              <label id="label_input_8_0" for="input_8_0"> Excellent </label>
+            </span>
+            <span class="form-radio-item" style="clear:left;">
+              <span class="dragger-item">
+              </span>
+              <input type="radio" class="form-radio" id="input_8_1" name="q8_overallSatisfaction" value="Good" />
+              <label id="label_input_8_1" for="input_8_1"> Good </label>
+            </span>
+            <span class="form-radio-item" style="clear:left;">
+              <span class="dragger-item">
+              </span>
+              <input type="radio" class="form-radio" id="input_8_2" name="q8_overallSatisfaction" value="Average" />
+              <label id="label_input_8_2" for="input_8_2"> Average </label>
+            </span>
+            <span class="form-radio-item" style="clear:left;">
+              <span class="dragger-item">
+              </span>
+              <input type="radio" class="form-radio" id="input_8_3" name="q8_overallSatisfaction" value="Dissatisfied" />
+              <label id="label_input_8_3" for="input_8_3"> Dissatisfied </label>
+            </span>
+          </div>
+        </div>
+      </li>
+      <li class="form-line" data-type="control_radio" id="id_25">
+        <label class="form-label form-label-right form-label-auto" id="label_25" for="input_25"> Content about introduction </label>
+        <div id="cid_25" class="form-input jf-required">
+          <div class="form-single-column">
+            <span class="form-radio-item" style="clear:left;">
+              <span class="dragger-item">
+              </span>
+              <input type="radio" class="form-radio" id="input_25_0" name="q25_contentAbout" value="Excellent" />
+              <label id="label_input_25_0" for="input_25_0"> Excellent </label>
+            </span>
+            <span class="form-radio-item" style="clear:left;">
+              <span class="dragger-item">
+              </span>
+              <input type="radio" class="form-radio" id="input_25_1" name="q25_contentAbout" value="Good" />
+              <label id="label_input_25_1" for="input_25_1"> Good </label>
+            </span>
+            <span class="form-radio-item" style="clear:left;">
+              <span class="dragger-item">
+              </span>
+              <input type="radio" class="form-radio" id="input_25_2" name="q25_contentAbout" value="Average" />
+              <label id="label_input_25_2" for="input_25_2"> Average </label>
+            </span>
+            <span class="form-radio-item" style="clear:left;">
+              <span class="dragger-item">
+              </span>
+              <input type="radio" class="form-radio" id="input_25_3" name="q25_contentAbout" value="Dissatisfied" />
+              <label id="label_input_25_3" for="input_25_3"> Dissatisfied </label>
+            </span>
+          </div>
+        </div>
+      </li>
+      <li class="form-line" data-type="control_radio" id="id_24">
+        <label class="form-label form-label-right form-label-auto" id="label_24" for="input_24"> Content about prevention/treatment </label>
+        <div id="cid_24" class="form-input jf-required">
+          <div class="form-single-column">
+            <span class="form-radio-item" style="clear:left;">
+              <span class="dragger-item">
+              </span>
+              <input type="radio" class="form-radio" id="input_24_0" name="q24_contentAbout24" value="Excellent" />
+              <label id="label_input_24_0" for="input_24_0"> Excellent </label>
+            </span>
+            <span class="form-radio-item" style="clear:left;">
+              <span class="dragger-item">
+              </span>
+              <input type="radio" class="form-radio" id="input_24_1" name="q24_contentAbout24" value="Good" />
+              <label id="label_input_24_1" for="input_24_1"> Good </label>
+            </span>
+            <span class="form-radio-item" style="clear:left;">
+              <span class="dragger-item">
+              </span>
+              <input type="radio" class="form-radio" id="input_24_2" name="q24_contentAbout24" value="Average" />
+              <label id="label_input_24_2" for="input_24_2"> Average </label>
+            </span>
+            <span class="form-radio-item" style="clear:left;">
+              <span class="dragger-item">
+              </span>
+              <input type="radio" class="form-radio" id="input_24_3" name="q24_contentAbout24" value="Dissatisfied" />
+              <label id="label_input_24_3" for="input_24_3"> Dissatisfied </label>
+            </span>
+          </div>
+        </div>
+      </li>
+      <li class="form-line" data-type="control_radio" id="id_27">
+        <label class="form-label form-label-right form-label-auto" id="label_27" for="input_27"> Content about useful links and vedios </label>
+        <div id="cid_27" class="form-input jf-required">
+          <div class="form-single-column">
+            <span class="form-radio-item" style="clear:left;">
+              <span class="dragger-item">
+              </span>
+              <input type="radio" class="form-radio" id="input_27_0" name="q27_contentAbout27" value="Excellent" />
+              <label id="label_input_27_0" for="input_27_0"> Excellent </label>
+            </span>
+            <span class="form-radio-item" style="clear:left;">
+              <span class="dragger-item">
+              </span>
+              <input type="radio" class="form-radio" id="input_27_1" name="q27_contentAbout27" value="Good" />
+              <label id="label_input_27_1" for="input_27_1"> Good </label>
+            </span>
+            <span class="form-radio-item" style="clear:left;">
+              <span class="dragger-item">
+              </span>
+              <input type="radio" class="form-radio" id="input_27_2" name="q27_contentAbout27" value="Average" />
+              <label id="label_input_27_2" for="input_27_2"> Average </label>
+            </span>
+            <span class="form-radio-item" style="clear:left;">
+              <span class="dragger-item">
+              </span>
+              <input type="radio" class="form-radio" id="input_27_3" name="q27_contentAbout27" value="Dissatisfied" />
+              <label id="label_input_27_3" for="input_27_3"> Dissatisfied </label>
+            </span>
+          </div>
+        </div>
+      </li>
+      <li class="form-line" data-type="control_radio" id="id_11">
+        <label class="form-label form-label-right form-label-auto" id="label_11" for="input_11"> Website lay out </label>
+        <div id="cid_11" class="form-input jf-required">
+          <div class="form-single-column">
+            <span class="form-radio-item" style="clear:left;">
+              <span class="dragger-item">
+              </span>
+              <input type="radio" class="form-radio" id="input_11_0" name="q11_websiteLay11" value="Excellent" />
+              <label id="label_input_11_0" for="input_11_0"> Excellent </label>
+            </span>
+            <span class="form-radio-item" style="clear:left;">
+              <span class="dragger-item">
+              </span>
+              <input type="radio" class="form-radio" id="input_11_1" name="q11_websiteLay11" value="Good" />
+              <label id="label_input_11_1" for="input_11_1"> Good </label>
+            </span>
+            <span class="form-radio-item" style="clear:left;">
+              <span class="dragger-item">
+              </span>
+              <input type="radio" class="form-radio" id="input_11_2" name="q11_websiteLay11" value="Average" />
+              <label id="label_input_11_2" for="input_11_2"> Average </label>
+            </span>
+            <span class="form-radio-item" style="clear:left;">
+              <span class="dragger-item">
+              </span>
+              <input type="radio" class="form-radio" id="input_11_3" name="q11_websiteLay11" value="Dissatisfied" />
+              <label id="label_input_11_3" for="input_11_3"> Dissatisfied </label>
+            </span>
+          </div>
+        </div>
+      </li>
+      <li class="form-line" data-type="control_radio" id="id_26">
+        <label class="form-label form-label-right form-label-auto" id="label_26" for="input_26"> Website design (e.g. color font-size) </label>
+        <div id="cid_26" class="form-input jf-required">
+          <div class="form-single-column">
+            <span class="form-radio-item" style="clear:left;">
+              <span class="dragger-item">
+              </span>
+              <input type="radio" class="form-radio" id="input_26_0" name="q26_websiteDesign" value="Excellent" />
+              <label id="label_input_26_0" for="input_26_0"> Excellent </label>
+            </span>
+            <span class="form-radio-item" style="clear:left;">
+              <span class="dragger-item">
+              </span>
+              <input type="radio" class="form-radio" id="input_26_1" name="q26_websiteDesign" value="Good" />
+              <label id="label_input_26_1" for="input_26_1"> Good </label>
+            </span>
+            <span class="form-radio-item" style="clear:left;">
+              <span class="dragger-item">
+              </span>
+              <input type="radio" class="form-radio" id="input_26_2" name="q26_websiteDesign" value="Average" />
+              <label id="label_input_26_2" for="input_26_2"> Average </label>
+            </span>
+            <span class="form-radio-item" style="clear:left;">
+              <span class="dragger-item">
+              </span>
+              <input type="radio" class="form-radio" id="input_26_3" name="q26_websiteDesign" value="Dissatisfied" />
+              <label id="label_input_26_3" for="input_26_3"> Dissatisfied </label>
+            </span>
+          </div>
+        </div>
+      </li>
+      <li class="form-line" data-type="control_email" id="id_28">
+        <label class="form-label form-label-top" id="label_28" for="input_28"> Do you want some extra information about cardiovascular? If so, please tell us what you want in the box and give us your email so we can send it to you </label>
+        <div id="cid_28" class="form-input-wide jf-required">
+          <input type="email" class=" form-textbox validate[Email]" id="input_28" name="q28_doYou28" size="30" value="" />
+        </div>
+      </li>
+      <li class="form-line" data-type="control_textarea" id="id_29">
+        <label class="form-label form-label-top" id="label_29" for="input_29"> What more information about cardiovascular would you like to know </label>
+        <div id="cid_29" class="form-input-wide jf-required">
+          <textarea id="input_29" class="form-textarea" name="q29_whatMore" cols="40" rows="6"></textarea>
+        </div>
+      </li>
+      <li class="form-line" data-type="control_textarea" id="id_5">
+        <label class="form-label form-label-top" id="label_5" for="input_5"> How do you want us to improve our website? </label>
+        <div id="cid_5" class="form-input-wide jf-required">
+          <textarea id="input_5" class="form-textarea" name="q5_howDo5" cols="40" rows="6"></textarea>
+        </div>
+      </li>
+      <li class="form-line" data-type="control_button" id="id_23">
+        <div id="cid_23" class="form-input-wide">
+          <div style="margin-left:156px" class="form-buttons-wrapper">
+            <button id="input_23" type="submit" class="form-submit-button">
+              Submit
+            </button>
+          </div>
+        </div>
+      </li>
+      <li style="display:none">
+        Should be Empty:
+        <input type="text" name="website" value="" />
+      </li>
+    </ul>
+  </div>
+  <input type="hidden" id="simple_spc" name="simple_spc" value="52533169071857" />
+  <script type="text/javascript">
+  document.getElementById("si" + "mple" + "_spc").value = "52533169071857-52533169071857";
+  </script>
+</form>
+</div>
+<div id =  "bottomSection">
+    <div>
+    <nav>
+      <ul id = "homeBar">
+        <li class = "homeBarItems"><a href = "../home/home.html"> Home </a></li>
+        <li class ="line"> | </li>	
+        <li class = "homeBarItems"><a href = "../CVD/CVD.html"> Cardiovascular Disease </a> </li>
+        <li class ="line"> | </li>	
+        <li class = "homeBarItems"><a href = "../prevention/prevention.html"> Prevention </a></li>
+        <li class ="line"> | </li>	
+        <li class = "homeBarItems"><a href = "../treatment/treatment.html"> Treatment </a></li>
+        <li class ="line"> | </li>	
+        <li class = "homeBarItems"><a href = "../tools/tools.html"> Tools </a></li>
+        <li class ="line"> | </li>	
+        <li class = "homeBarItems"><a href = "../contactUs/contactUs.html">Contact Us </a></li>
+        <li class ="line"> | </li>	
+        <li class = "homeBarItems"><a href = "../aboutUs/aboutUs.html"> About Us </a></li>
+      </ul>
+    </nav>
+    </div>
+    <div id = "bottomGroup">
+    <div id = "bottomSecond">
+    <nav>
+      <ul id = "bottomBar">
+        <li class = "homeBarItems"><a href = "../help-FAQ/help-FAQ.html"> Help/FAQ </a></li>
+        |
+        <li class = "homeBarItems"><a href = "../privacyPolicy/privacyPolicy.html"> Privacy Policy </a></li>
+        |
+        <li class = "homeBarItems"><a href = "../feedbackForm/feedbackForm.html"> Feedback Form </a></li>
+        |
+        <li class = "homeBarItems"><a href = "../siteMap/siteMap.html"> Sitemap </a></li>
+      
+      </ul>
+    </nav>
+    </div>
+      <div id = "bottomLogo">
+        <a href = "../home/home.html"><img src = "../WebsiteLogo.gif" alt = "HeartLife"></a>
+      </div>
+    </div>
+    </div>
+</body>
+</html>

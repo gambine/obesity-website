@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>BMI Calculator</title>
+		<link rel="stylesheet" href="bmistyle2.css">
+		<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+		<script type="text/javascript" src="bmi.js"></script>
+	</head>
+	<body>
+		<div class="calculator-container">
+			<h2>BMI Calculator</h2>
+				<form>	
+					<!-- radio buttons -->
+					<div class="radio">
+						<label class="radio-inline"><input type="radio" name="sex" id="male">Male
+						</label>
+						<label class="radio-inline"><input type="radio" name="sex" id="female">Female
+						</label>
+					</div>
+					<!-- Forms -->
+					<div class="col-sm-3 col-xs-6">
+						<label for="height">Height (cms)</label>
+						<input type="number" class="form-control" id="height" name="height" placeholder="eg. 160">
+					</div>
+
+					<div class="col-sm-3 col-xs-6">
+						<label for="weight">Weight (kgs)</label>
+						<input type="number" class="form-control" id="weight" name="weight" placeholder="eg. 60">
+					</div>
+					<!-- Buttons -->
+					<div class="col-sm-6 col-xs-8">
+						<button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#hide" onClick="calculateBMI()">Calculate BMI</button>
+						<button type="button" class="btn btn-primary" onClick="reset()">Reset</button>
+					</div>
+
+
+				</form>
+		</div>
+
+		<div id="hide" class="results-container collapse">
+			<h2 class="results-head">Your BMI is...</h2>
+			<!-- visual BMI representation -->
+			<div class="bmiNumResult col-sm-4 col-xs-4">
+				<svg class="circle" height="120" width="120">
+  					<circle cx="55" cy="55" r="55" fill="#FF5050"></circle>  
+				</svg> 
+				<p class="bmiResult" id="bmiOutput"></p>
+			</div>
+			<!-- bmi interpretation -->
+			<div class="bmiCommentResult col-sm-8 col-xs-4">
+				<p class="results-interp" id="bmiComment"></p>
+			</div>
+		</div>
+
+	</body>
+</html>

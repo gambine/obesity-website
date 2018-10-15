@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+		<title> Heart Life </title>
+		<script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js'></script>
+		<link rel = "stylesheet" href = "../reset.css"/>
+		<link rel = "stylesheet" href = "../styleSheetBasic.css"/>
+		<link rel="stylesheet" href="../registration.css" type="text/css" />
+		<link rel="stylesheet" href="../style.css" type="text/css" media="screen" />
+		<style type='text/css'>
+
+#nav {
+	font-size: 20px;
+	background-color: #DE4343;
+	display: block;
+	width: 100%;
+	height: 50px;
+    z-index: 1000;
+    position: relative;
+}
+
+  </style>
+		<script type='text/javascript'>
+//<![CDATA[ 
+
+  $(function() {
+    // Stick the #nav to the top of the window
+    var nav = $('#nav');
+    var navHomeY = nav.offset().top;
+    var isFixed = false;
+    var $w = $(window);
+    $w.scroll(function() {
+        var scrollTop = $w.scrollTop();
+        var shouldBeFixed = scrollTop > navHomeY;
+        if (shouldBeFixed && !isFixed) {
+            nav.css({
+                position: 'fixed',
+                top: 0,
+                left: nav.offset().left,
+                width: nav.width()
+            });
+            isFixed = true;
+        }
+        else if (!shouldBeFixed && isFixed)
+        {
+            nav.css({
+                position: 'static'
+            });
+            isFixed = false;
+        }
+    });
+});
+
+//]]>  
+</script>
+
+	</head>
+	<body>
+<div id = "topSection">
+		<div id = "topDiv1">
+			<div id = "topDiv2">
+				<div id = "websiteLogo">
+					<a href = "../home/home.html"><img src = "../WebsiteLogo.jpg" alt = "HeartLife"></a>
+				</div>
+				<div id = "logIn">
+					<a href="../tools/login in form.html">LOG IN</a>
+					|
+					<a href="../tools/registration form.html">SIGN UP</a>
+				</div><div id ="search">
+ <script>
+  (function() {
+    var cx = '000421825559379877846:ysuiupqabvi';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+        '//cse.google.com/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+</script>
+<gcse:search></gcse:search>
+		</div>
+			</div>
+			
+			<div>
+			<nav id = "nav">
+				<ul id = "homeBar">
+					<li class = "homeBarItems"><a href = "../home/home.html"> Home </a></li>
+					<li class ="line"> | </li>
+					
+					
+					<li class = "homeBarItems"><a href = "../CVD/CVD.html"> Cardiovascular Disease </a> 
+						<ul>
+							<li class='subList1'><a href='#'>Women & Children</a></li>
+							<li class='subList1'><a href='../CVD/Types of CVD.html'>Types of CVD</a></li>
+							<li class='subList1'><a href='#'>Rehabilitation</a></li>
+							<li class='subList1'><a href='#'>Cause of CVD</a></li>
+							<li class='subList1'><a href='#'>Emergencies</a></li>
+							<li class='subList1'><a href='#'>Find a Specialist</a></li>
+						</ul>
+					</li>
+					<li class ="line"> | </li>	
+					
+					<li class = "homeBarItems"><a href = "../prevention/prevention.html"> Prevention </a>
+						<ul>
+							<li class='subList2'><a href='#'>Active Lifestyle</a></li>
+							<li class='subList2'><a href='../prevention/healthyeating.html'>Healthier Food</a></li>
+							<li class='subList2'><a href='#'>Initiative for Change</a></li>
+							<li class='subList2'><a href='#'>Daily Habits</a></li>
+							<li class='subList2'><a href='#'>Medical Screening</a></li>
+							<li class='subList2'><a href='#'>Ongoing Research</a></li>
+						</ul>
+					</li>
+					<li class ="line"> | </li>	
+						
+					<li class = "homeBarItems"><a href = "../treatment/treatment.html"> Treatment </a>
+						<ul>
+							<li class='subList3'><a href='#'>Surgery</a></li>
+							<li class='subList3'><a href='#'>General Treatment</a></li>
+							<li class='subList3'><a href='#'>Specific Treatments</a></li>
+							<li class='subList3'><a href='#'>Medicines</a></li>
+							<li class='subList3'><a href='#'>Therapy</a></li>
+							<li class='subList3'><a href='#'>Treatment Research</a></li>
+						</ul>
+					</li>	
+					<li class ="line"> | </li>
+					<li class = "homeBarItems"><a href = "../tools/tools.html"> Tools </a>
+						<ul>
+							<li class='subList4'><a href='../tools/tools-bmi.html'>BMI Calculator</a></li>
+							<li class='subList4'><a href='../tools/tools-calorie.html'>Calorie Estimator</a></li>
+							
+						</ul>
+					</li>	
+					<li class ="line"> | </li>
+					<li class = "homeBarItems"><a href = "../contactUs/contactUs.html">Contact Us </a></li>
+					<li class ="line"> | </li>
+					<li class = "homeBarItems"><a href = "../aboutUs/aboutUs.html"> About Us </a></li>
+				</ul>
+				<br class = "clearLeft"/>
+			</nav>
+			</div>
+		</div>
+	</div>
+	<div id = "middleSection" style = "height: 3100px;" >
+			<div id = "articleTotal">
+				<div>
+					<a href = "../home/home.html" id="Type">HOME</a> > <a href = "../prevention/prevention.html" id="Type">PREVENTION</a> > <a href = "../prevention/healthyeating.html" id="Type"> HEALTHY EATING </a>
+				</div>
+				<div id = "articleHeader">
+					<h3 style = "float: left;">Healthy Eating</h3>
+					<div style = "float: right;">
+					<input type="button" class = "button"
+					  onClick="window.print()" 
+					  value="Print This Page"/>
+					</div>
+				</div>
+				<div id = "article" style = "padding: 12px 3px 3px 10px; margin: 8px; width: 700px; text-indent: 20px;">
+					<img src = "../healthyfood.jpg" style = "height: 180px;">
+					<pre> <h4>What is healthy eating?</h4>
+
+Healthy eating and drinking is an important part of looking after your health and your heart.
+
+<a id = "articleLink" href = "#">Healthy eating guidelines</a> - Here are some easy tips to help you to follow a healthy balanced diet.
+
+<a id = "articleLink" href = "#">Healthy breakfast tips</a> - Here are some easy tips to start the day in a healthy way.
+
+<a id = "articleLink" href = "#">Recipe finder</a> – find healthy recipes here.
+
+ 
+
+You can enjoy a healthy balanced diet simply by following these five tips:
+
+<ol><li>Eat a variety of foods from the five food groups</li>
+<li>Include vegetables, wholegrains, fruit, nuts and seeds every day</li>
+<li>Choose healthier fats and oils</li>
+<li>Limit sugary, fatty and salty take-away meals and snacks</li>
+<li>Drink mainly water.</li>
+<li>To find out more about these types of foods and drink and how to incorporate them into your daily routine
+click on the tabs on the left hand side of this page, or in the links below.</li>
+<ol>
+
+
+<a id = "articleLink"href = "#">Fruits and vegetables</a>
+<img src = "../fandv.jpg" style = "height: 120px; margin-right: 380px; padding: 8px;">
+Find out why you need to eat your fruits and veg and how much you should be eating.
+
+<a id = "articleLink"href = "#">Seafood</a>
+<img src = "../seafood.jpg" style = "height: 120px; margin-right: 480px; padding: 8px;">
+Oily fish and seafood contain omega-3 fats which help to maintain good general health and reduce the risk of
+heart disease and stroke.
+
+<a id = "articleLink"href = "#">Dairy</a>
+<img src = "../dairy.jpg" style = "height: 120px; margin-right: 380px; padding: 8px;">
+Why choosing milk, cheese and yoghurt (or alternatives) are important.
+
+<a id = "articleLink"href = "#">Egg, legumes, pulses, nuts & seeds</a>
+<img src = "../nut.jpg" style = "height: 120px; margin-right: 360px; padding: 8px;">
+Find out different ways to include protein, and other vitamins and minerals in your diet.
+
+<a id = "articleLink"href = "#">Carbohydrates and sugars</a>
+<img src = "../sugar.jpeg" style = "height: 120px; margin-right: 440px; padding: 8px;">
+What is a good quality carbohydrate, and how much should you have?
+
+<a id = "articleLink"href = "#">Grain (Cereals) foods</a>
+<img src = "../bread.jpg" style = "height: 120px; margin-right: 480px; padding: 8px;">
+What is a grain food? What type and how much should you eat?
+
+<a id = "articleLink"href = "#">Meat and poultry</a>
+<img src = "../meat.jpeg" style = "height: 120px; margin-right: 340px; padding: 8px;">
+Meat is a good source of protein and vitamins and minerals, such as iron, selenium, zinc, and B vitamins. 
+It is also one of the main sources of vitamin B12.
+
+<a id = "articleLink"href = "#">Salt</a>
+<img src = "../salt.jpeg" style = "height: 120px; margin-right: 440px; padding: 8px;">
+How much salt is too much? and how can I reduce my intake?
+
+<a id = "articleLink"href = "#">Water</a>
+<img src = "../water.jpg" style = "height: 120px; margin-right: 390px; padding: 8px;">
+Did you know that water makes up about two-thirds of our body weight? Find out why it is so important
+
+<a id = "articleLink"href = "#">Fats and oils</a>
+<img src = "../fat.jpg" style = "height: 120px; margin-right: 440px; padding: 8px;">
+What’s a healthier fat for heart health?
+					
+				</div>
+			</div>
+			<div style = "width: 200px; padding: 3px 10px; border-right: solid #DE4343 2px; height: 3000px;">
+				<div>
+					<h4 style = "border-bottom: solid red 2px;">QUICKLINKS</h4>
+				</div>
+				<ul>
+							<li class = "redbox"><a href="../CVD/what is CVD.html">What is CVD</a></li>
+							<li class = "redbox"><a href="#">Heart Failure</a></li>
+							<li class = "redbox"><a href="#">Prevention</a></li>
+							<li class = "redbox"><a href="#">Treatment</a></li>
+							<li class = "redbox"><a href="#">Cardiac Rehabilitation</a></li>
+							<li class = "redbox"><a href="#">Fact sheets</a></li>
+				</ul>
+				<div id = "relevant"> <!--please move this div to the bottom of the parent div-->
+					<h4 style = "border-bottom: solid red 2px; font-size: 20px;">find out more...</h4>
+					<ul>
+							<li class = "redbox"><a href="../CVD/CVD.html">Cardiovascular Disease</a></li>
+							<li class = "redbox"><a href="#"></a>Cerebrovascular Disease</li>
+							<li class = "redbox"><a href="#"></a>Peripheral Vascular Disease</li>
+							<li class = "redbox"><a href="#"></a>Heart Failure</li>
+							<li class = "redbox"><a href="#"></a>Congenital Heart Disease</li>
+							<li class = "redbox"><a href="#"></a>Ischemic Heart Disease</li>
+							<li class = "redbox"><a href="#"></a>More Heart Diseases</li>
+					</ul>
+				</div>
+			</div>
+	</div>
+	<div id =  "bottomSection">
+		<div>
+		<nav>
+			<ul id = "homeBar">
+				<li class = "homeBarItems"><a href = "../home/home.html"> Home </a></li>
+				<li class ="line"> | </li>	
+				<li class = "homeBarItems"><a href = "../CVD/CVD.html"> Cardiovascular Disease </a> </li>
+				<li class ="line"> | </li>	
+				<li class = "homeBarItems"><a href = "../prevention/prevention.html"> Prevention </a></li>
+				<li class ="line"> | </li>	
+				<li class = "homeBarItems"><a href = "../treatment/treatment.html"> Treatment </a></li>
+				<li class ="line"> | </li>	
+				<li class = "homeBarItems"><a href = "../tools/tools.html"> Tools </a></li>
+				<li class ="line"> | </li>	
+				<li class = "homeBarItems"><a href = "../contactUs/contactUs.html">Contact Us </a></li>
+				<li class ="line"> | </li>	
+				<li class = "homeBarItems"><a href = "../aboutUs/aboutUs.html"> About Us </a></li>
+			</ul>
+		</nav>
+		</div>
+		<div id = "bottomGroup">
+		<div id = "bottomSecond">
+		<nav>
+			<ul id = "bottomBar">
+				<li class = "homeBarItems"><a href = "../help-FAQ/help-FAQ.html"> Help/FAQ </a></li>
+				|
+				<li class = "homeBarItems"><a href = "../privacyPolicy/privacyPolicy.html"> Privacy Policy </a></li>
+				|
+				<li class = "homeBarItems"><a href = "../feedbackForm/feedbackForm.html"> Feedback Form </a></li>
+				|
+				<li class = "homeBarItems"><a href = "../siteMap/siteMap.html"> Sitemap </a></li>
+			
+			</ul>
+		</nav>
+		</div>
+			<div id = "bottomLogo">
+				<a href = "../home/home.html"><img src = "../WebsiteLogo.gif" alt = "HeartLife"></a>
+			</div>
+		</div>
+		</div>
+	</body>
+</html>

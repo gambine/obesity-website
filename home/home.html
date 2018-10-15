@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html>
+	<head>
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+        <title> Heart Life </title>
+        <script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js'></script>
+                <link rel="stylesheet" href="../owl.carousel/owl.carousel.css">
+        <script src="../owl.carousel/owl.carousel.js"></script>
+        <link rel = "stylesheet" href = "../reset.css"/>
+        <link rel = "stylesheet" href = "../styleSheetBasic.css"/>
+        <link rel="stylesheet" href="../registration.css" type="text/css" />
+		<link rel="stylesheet" href="../style.css" type="text/css" media="screen" />
+        <style type='text/css'>
+
+
+#nav {
+	font-size: 20px;
+	background-color: #DE4343;
+	display: block;
+	width: 100%;
+	height: 50px;
+    z-index: 1000;
+    position: relative;
+}
+
+  </style>
+		<script type='text/javascript'>
+//<![CDATA[ 
+
+  $(function() {
+    // Stick the #nav to the top of the window
+    var nav = $('#nav');
+    var navHomeY = nav.offset().top;
+    var isFixed = false;
+    var $w = $(window);
+    $w.scroll(function() {
+        var scrollTop = $w.scrollTop();
+        var shouldBeFixed = scrollTop > navHomeY;
+        if (shouldBeFixed && !isFixed) {
+            nav.css({
+                position: 'fixed',
+                top: 0,
+                left: nav.offset().left,
+                width: nav.width()
+            });
+            isFixed = true;
+        }
+        else if (!shouldBeFixed && isFixed)
+        {
+            nav.css({
+                position: 'static'
+            });
+            isFixed = false;
+        }
+    });
+});
+
+//]]>  
+</script>
+
+	</head>
+	<body>
+	<div id = "topSection">
+		<div id = "topDiv1">
+			<div id = "topDiv2">
+				<div id = "websiteLogo">
+					<a href = "../home/home.html"><img src = "../WebsiteLogo.jpg" alt = "HeartLife"></a>
+				</div>
+				<div id = "logIn">
+					<a href="../tools/login in form.html">LOG IN</a>
+					|
+					<a href="../tools/registration form.html">SIGN UP</a>
+				</div><div id ="search">
+ <script>
+  (function() {
+    var cx = '000421825559379877846:ysuiupqabvi';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+        '//cse.google.com/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+</script>
+<gcse:search></gcse:search>
+		</div>
+			</div>
+			
+			<div>
+			<nav id = "nav">
+				<ul id = "homeBar">
+					<li class = "homeBarItems"><a href = "../home/home.html"> Home </a></li>
+					<li class ="line"> | </li>
+					
+					
+					<li class = "homeBarItems"><a href = "../CVD/CVD.html"> Cardiovascular Disease </a> 
+						<ul>
+							<li class='subList1'><a href='#'>Women & Children</a></li>
+							<li class='subList1'><a href='../CVD/Types of CVD.html'>Types of CVD</a></li>
+							<li class='subList1'><a href='#'>Rehabilitation</a></li>
+							<li class='subList1'><a href='#'>Cause of CVD</a></li>
+							<li class='subList1'><a href='#'>Emergencies</a></li>
+							<li class='subList1'><a href='#'>Find a Specialist</a></li>
+						</ul>
+					</li>
+					<li class ="line"> | </li>	
+					
+					<li class = "homeBarItems"><a href = "../prevention/prevention.html"> Prevention </a>
+						<ul>
+							<li class='subList2'><a href='#'>Active Lifestyle</a></li>
+							<li class='subList2'><a href='../prevention/healthyeating.html'>Healthier Food</a></li>
+							<li class='subList2'><a href='#'>Initiative for Change</a></li>
+							<li class='subList2'><a href='#'>Daily Habits</a></li>
+							<li class='subList2'><a href='#'>Medical Screening</a></li>
+							<li class='subList2'><a href='#'>Ongoing Research</a></li>
+						</ul>
+					</li>
+					<li class ="line"> | </li>	
+						
+					<li class = "homeBarItems"><a href = "../treatment/treatment.html"> Treatment </a>
+						<ul>
+							<li class='subList3'><a href='#'>Surgery</a></li>
+							<li class='subList3'><a href='#'>General Treatment</a></li>
+							<li class='subList3'><a href='#'>Specific Treatments</a></li>
+							<li class='subList3'><a href='#'>Medicines</a></li>
+							<li class='subList3'><a href='#'>Therapy</a></li>
+							<li class='subList3'><a href='#'>Treatment Research</a></li>
+						</ul>
+					</li>	
+					<li class ="line"> | </li>
+					<li class = "homeBarItems"><a href = "../tools/tools.html"> Tools </a>
+						<ul>
+							<li class='subList4'><a href='../tools/tools-bmi.html'>BMI Calculator</a></li>
+							<li class='subList4'><a href='../tools/tools-calorie.html'>Calorie Estimator</a></li>
+							
+						</ul>
+					</li>	
+					<li class ="line"> | </li>
+					<li class = "homeBarItems"><a href = "../contactUs/contactUs.html">Contact Us </a></li>
+					<li class ="line"> | </li>
+					<li class = "homeBarItems"><a href = "../aboutUs/aboutUs.html"> About Us </a></li>
+				</ul>
+				<br class = "clearLeft"/>
+			</nav>
+			</div>
+		</div>
+	</div>
+	<div id = "middleSection">
+	
+	
+
+
+		<!-- Carousel Code Starts -->
+
+		<div style="padding: 30px 30px 30px 30px; border-bottom: solid red 2px;">
+			
+			<script type="text/javascript" src="../jssor.slider-20.min.js"></script>
+    
+  		<script>
+        jssor_1_slider_init = function() {
+            
+            var jssor_1_SlideshowTransitions = [
+              {$Duration:1200,$Opacity:2}
+            ];
+            
+            var jssor_1_options = {
+              $AutoPlay: true,
+              $SlideshowOptions: {
+                $Class: $JssorSlideshowRunner$,
+                $Transitions: jssor_1_SlideshowTransitions,
+                $TransitionsOrder: 1
+              },
+              $ArrowNavigatorOptions: {
+                $Class: $JssorArrowNavigator$
+              },
+              $BulletNavigatorOptions: {
+                $Class: $JssorBulletNavigator$
+              }
+            };
+            
+            var jssor_1_slider = new $JssorSlider$("jssor_1", jssor_1_options);
+            
+            //responsive code begin
+            //you can remove responsive code if you don't want the slider scales while window resizes
+            // function ScaleSlider() {
+            //     var refSize = jssor_1_slider.$Elmt.parentNode.clientWidth;
+            //     if (refSize) {
+            //         refSize = Math.min(refSize, 600);
+            //         jssor_1_slider.$ScaleWidth(refSize);
+            //     }
+            //     else {
+            //         window.setTimeout(ScaleSlider, 30);
+            //     }
+            // }
+            // ScaleSlider();
+            // $Jssor$.$AddEvent(window, "load", ScaleSlider);
+            // $Jssor$.$AddEvent(window, "resize", $Jssor$.$WindowResizeFilter(window, ScaleSlider));
+            // $Jssor$.$AddEvent(window, "orientationchange", ScaleSlider);
+            //responsive code end
+        };
+    </script>
+
+    <style>
+        
+        /* jssor slider bullet navigator skin 05 css */
+        /*
+        .jssorb05 div           (normal)
+        .jssorb05 div:hover     (normal mouseover)
+        .jssorb05 .av           (active)
+        .jssorb05 .av:hover     (active mouseover)
+        .jssorb05 .dn           (mousedown)
+        */
+        .jssorb05 {
+            position: absolute; top: 330px;
+        }
+        .jssorb05 div, .jssorb05 div:hover, .jssorb05 .av {
+            position: absolute;
+            /* size of bullet elment */
+            width: 16px;
+            height: 16px;
+            background: url('../b05.png') no-repeat;
+            overflow: hidden;
+            cursor: pointer;
+        }
+        .jssorb05 div { background-position: -7px -7px; }
+        .jssorb05 div:hover, .jssorb05 .av:hover { background-position: -37px -7px; }
+        .jssorb05 .av { background-position: -67px -7px; }
+        .jssorb05 .dn, .jssorb05 .dn:hover { background-position: -97px -7px; }
+
+        /* jssor slider arrow navigator skin 12 css */
+        /*
+        .jssora12l                  (normal)
+        .jssora12r                  (normal)
+        .jssora12l:hover            (normal mouseover)
+        .jssora12r:hover            (normal mouseover)
+        .jssora12l.jssora12ldn      (mousedown)
+        .jssora12r.jssora12rdn      (mousedown)
+        */
+        .jssora12l, .jssora12r {
+            display: block;
+            position: absolute;
+            /* size of arrow element */
+            width: 30px;
+            height: 46px;
+            cursor: pointer;
+            background: url('../a12.png') no-repeat;
+            overflow: hidden;
+        }
+        .jssora12r {
+            position: fixed; left: 942px;
+        }
+        .jssora12l { background-position: -16px -37px; }
+        .jssora12r { background-position: -75px -37px; }
+        .jssora12l:hover { background-position: -136px -37px; }
+        .jssora12r:hover { background-position: -195px -37px; }
+        .jssora12l.jssora12ldn { background-position: -256px -37px; }
+        .jssora12r.jssora12rdn { background-position: -315px -37px; }
+    </style>
+
+
+    <div id="jssor_1" style="position: relative; margin-left: 13px; top: 0px; left: 0px; padding: 30px;  width: 960px; height: 360px; overflow: hidden;">
+        <!-- Loading Screen -->
+        <div data-u="loading" style="position: absolute; top: 0px; left: 0px;">
+            <div style="filter: alpha(opacity=70); opacity: 0.7; position: absolute; display: block; top: 0px; left: 0px; width: 100%; height: 100%;"></div>
+            <div style="position:absolute;display:block;background:url('.../loading.gif') no-repeat center center;top:0px;left:0px;width:100%;height:100%;"></div>
+        </div>
+        <div data-u="slides" style="cursor: default; position: relative; top: 0px; left: 0px; width: 960px; height: 360px; overflow: hidden;">
+            <div style="display: none;">
+                <img data-u="image" src="../surfer.jpg" />
+            </div>
+			
+            <div style="display: none;">
+                <img data-u="image" src="../healthymeal.jpg" />
+            </div>
+            <div style="display: none;">
+                <img data-u="image" src="../calorie.jpg" />
+            </div>
+            <div style="display: none;">
+                <img data-u="image" src="../bmi.jpg" />
+            </div>
+			<div style="display: none;">
+                <a href = "../snake/game.html"><img data-u="image" src="../snake/snake2.png"></a>
+            </div>
+        </div>
+        <!-- Bullet Navigator -->
+        <div data-u="navigator" class="jssorb05" style="bottom:16px;right:6px;" data-autocenter="1">
+            <!-- bullet navigator item prototype -->
+            <div data-u="prototype" style="width:16px;height:16px;"></div>
+        </div>
+        <!-- Arrow Navigator -->
+        <span data-u="arrowleft" class="jssora12l" style="top:123px;left:0px;width:30px;height:46px;" data-autocenter="2"></span>
+        <span data-u="arrowright" class="jssora12r" style="top:123px;right:0px;width:30px;height:46px;" data-autocenter="2"></span>
+        <a href="http://www.jssor.com" style="display:none">Jssor Slider</a>
+    </div>
+    <script>
+        jssor_1_slider_init();
+    </script>
+
+    	<!-- Carousel Code Ends -->
+
+        <!-- Mini Carousel Code Starts -->
+
+    <script type="text/javascript">
+        $(document).ready(function() {
+        $("#owl-demo").owlCarousel({
+            autoPlay: 3000, //Set AutoPlay to 3 seconds
+            items : 3,
+            itemsDesktop : [1199,3],
+            itemsDesktopSmall : [979,3],
+            });
+        });
+    </script>
+
+    <style>
+    #owl-demo .item {
+      padding: 10px 0px;
+      margin: 0px;
+      color: #FFF;
+      -webkit-border-radius: 3px;
+      -moz-border-radius: 3px;
+      border-radius: 3px;
+      text-align: center;
+    }
+    </style>
+
+    <div id="owl-demo" class="owl-carousel owl-theme">
+        <div class="item"><img src="../sample1.jpg"></div>
+        <div class="item"><img src="../sample2.jpg"></div>
+        <div class="item"><img src="../sample3.jpg"></div>
+        <div class="item"><img src="../sample4.jpg"></div>
+        <div class="item"><img src="../sample5.jpg"></div>
+        <div class="item"><img src="../sample1.jpg"></div>
+        <div class="item"><img src="../sample2.jpg"></div>
+        <div class="item"><img src="../sample3.jpg"></div>
+    </div>
+     
+<!--     <div class="customNavigation">
+        <a class="btn prev">Previous</a>
+        <a class="btn next">Next</a>
+        <a class="btn play">Autoplay</a>
+        <a class="btn stop">Stop</a>
+    </div> -->
+
+    <!-- Mini Carousel Code Ends -->
+
+		</div>
+
+		<div style = "padding: 30px 30px 30px 30px">
+			<div>
+				<div id = "quicklinks">
+					<div style = " border-bottom: solid #DE4343 2px; color: #DE4343;">
+						<h4>QUICKLINKS</h4>
+					</div>
+					<ul id="quicklinkslist">
+						<li class="redbox"><a href="../CVD/Types of CVD.html">Types of CVD</a></li>
+						<li class="redbox"><a href="#">Reduce your risks</a></li>
+						<li class="redbox"><a href="#">Exercise Guide</a></li>
+						<li class="redbox"><a href="../recipe/Caesar Salad.html">Recipes</a></li>
+						<li class="redbox"><a href="#">Treatment</a></li>
+						<li class="redbox"><a href="#">Heart Attack</a></li>
+						<li class="redbox"><a href="#">Fact sheets</a></li>
+						<li class="redbox"><a href="#">Early Detection</a></li>
+					</ul>
+				</div>
+			</div>
+
+            <!-- Recipe Carousel Code Starts-->
+
+			<div id = "recipeSlider">
+
+                <div id="slideshow">
+                   <div>
+                     <img src="../HealthyMeal.jpg" alt = "food picture" id = "food">
+                   </div>
+                   <div>
+                     <img src="../HealthyMeal2.jpg" alt = "food picture" id = "food">
+                   </div>
+                   <div>
+                     <img src="../HealthyMeal3.jpg" alt = "food picture" id = "food">
+                   </div>
+                   <div>
+                     <img src="../HealthyLife.jpg" alt = "food picture" id = "food">
+                   </div>
+                   <div>
+                     <img src="../HealthyLife1.jpg" alt = "food picture" id = "food">
+                   </div>
+                   <div>
+                     <img src="../HealthyLife2.png" alt = "food picture" id = "food">
+                   </div>
+                </div>
+
+                <script type="text/javascript">
+                    $("#slideshow > div:gt(0)").hide();
+                        setInterval(function() { 
+                          $('#slideshow > div:first')
+                            .fadeOut(1000)
+                            .next()
+                            .fadeIn(1000)
+                            .end()
+                            .appendTo('#slideshow');
+                        },  3000);
+                </script>
+
+                <style>
+                    #slideshow { 
+                        margin: 12px; 
+                        position: relative; 
+                        width: 240px; 
+                        height: 240px; 
+                        padding: 10px; 
+                    }
+
+                    #slideshow > div { 
+                        position: absolute; 
+                        top: -25px; 
+                        left: 10px; 
+                        right: 10px; 
+                        bottom: 10px; 
+                    }
+                </style>
+
+                <!-- Recipe Carousel Code Ends -->
+
+			</div>
+			<div id = "medicalNews">
+				<div style = "padding: 10px 10px; font-size: 18px;">
+					<p> 
+						<h5>Heart Foundation warns against sugary drink complacency </h5> <p><br>16 October 2015</p>
+						<br>The National Heart Foundation warns against complacency despite newly released data from the Australian Bureau of Statistics (ABS) showing a slight decrease in the number of Australians consuming sweetened beverages.
+                        <p><br>
+                        The results from the Australian Health Survey and the 1995 results, show the proportion of people consuming sweetened beverages had decreased slightly from just under half (49%) in 1995 to 42 per cent (two in five Australians) in 2011–12.
+					</p>
+					<a href = "../medicalnews/news1.html" class = "newslink"><u style = "color: grey">Read more</u></a>
+				</div>
+
+				<div style = "padding: 10px 10px; font-size: 18px;">
+					<p>
+						<h5> NSW Rural women at greater heart risk </h5> <p><br>15 Octorber 2015</p>
+                        <br>This Thursday is the United Nations International Day of Rural Health and the Heart Foundation is calling on all women, particularly those in rural areas to take a moment and focus on their heart health.
+                        <p><br>
+                        “Sadly, heart disease takes the lives of more than 24 females each and every day.  These are our mothers, grandmothers, daughters, sisters, aunts and girlfriends,” said Kerry Doyle, Chief Executive Heart Foundation NSW.
+
+					</p>
+					<a href = "#" class = "newslink"><u style = "color: grey">Read more</u></a>
+				</div>
+			</div>
+
+			<div style = "margin-top: 20px;">
+            <div style = "padding: 118px 20px; margin-left: 20px;">
+				<a class = "calorie" href = "#"></a>
+            </div>
+            <div style = "padding: 0px 20px; margin-left: 20px;margin-top: -65px;">
+				<a class = "bmi" href = "../tools/tools.html"></a>
+            </div>
+			</div>
+		</div>
+	</div>
+	<div id =  "bottomSection">
+		<div>
+		<nav>
+			<ul id = "homeBar">
+				<li class = "homeBarItems"><a href = "../home/home.html"> Home </a></li>
+				<li class ="line"> | </li>	
+				<li class = "homeBarItems"><a href = "../CVD/CVD.html"> Cardiovascular Disease </a> </li>
+				<li class ="line"> | </li>	
+				<li class = "homeBarItems"><a href = "../prevention/prevention.html"> Prevention </a></li>
+				<li class ="line"> | </li>	
+				<li class = "homeBarItems"><a href = "../treatment/treatment.html"> Treatment </a></li>
+				<li class ="line"> | </li>	
+				<li class = "homeBarItems"><a href = "../tools/tools.html"> Tools </a></li>
+				<li class ="line"> | </li>	
+				<li class = "homeBarItems"><a href = "../contactUs/contactUs.html">Contact Us </a></li>
+				<li class ="line"> | </li>	
+				<li class = "homeBarItems"><a href = "../aboutUs/aboutUs.html"> About Us </a></li>
+			</ul>
+		</nav>
+		</div>
+		<div id = "bottomGroup">
+		<div id = "bottomSecond">
+		<nav>
+			<ul id = "bottomBar">
+				<li class = "homeBarItems"><a href = "../help-FAQ/help-FAQ.html"> Help/FAQ </a></li>
+				|
+				<li class = "homeBarItems"><a href = "../privacyPolicy/privacyPolicy.html"> Privacy Policy </a></li>
+				|
+				<li class = "homeBarItems"><a href = "../feedbackForm/feedbackForm.html"> Feedback Form </a></li>
+				|
+				<li class = "homeBarItems"><a href = "../siteMap/siteMap.html"> Sitemap </a></li>
+			
+			</ul>
+		</nav>
+		</div>
+			<div id = "bottomLogo">
+				<a href = "../home/home.html"><img src = "../WebsiteLogo.gif" alt = "HeartLife"></a>
+			</div>
+		</div>
+		</div>
+	</body>
+</html>
+		
+		

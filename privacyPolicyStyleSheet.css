@@ -1,0 +1,27 @@
+h4{
+	font-weight: bold;
+	font-size: 25px;
+	text-align:left;
+	padding: 10px;
+	
+}
+
+#text{
+	text-align:left;		
+	margin:50px;
+}	
+
+ul{
+	list-style:circle;
+	padding:20px;
+	margin-left:20px;
+}
+#Type{
+	font-size:100%;
+	padding:10px 0px;
+}
+#articleHeader{
+	border-bottom: solid red 2px;
+	padding: 10px 10px;
+	margin: 0px 0px 10px 0px;
+}

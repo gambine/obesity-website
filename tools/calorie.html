@@ -1,0 +1,52 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		CALORIE CALCULATOR
+				<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+				<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+				<script type="text/javascript" src="calorie.js"></script>
+	</head>
+	<body>
+		<form name="calorieForm">
+					<!--FORM-->			 
+						<div class="col-sm-3 col-xs-6">
+							<label for="height">Height (cms)</label>
+							<input type="number" class="form-control" id="height" name="height" placeholder="eg. 160">
+						</div>
+
+						<div class="col-sm-3 col-xs-6">
+							<label for="weight">Weight (kgs)</label>
+							<input type="number" class="form-control" id="weight" name="weight" placeholder="eg. 60">
+						</div>
+
+						<div class="col-sm-3 col-xs-6">
+							<label for="age">Age</label>
+							<input type"number" class="form-control" id="age" name="age" placeholder="eg. 50">
+						</div>
+
+						<div class="genderRadio">
+							<label class="radio-inline"><input type="radio" name="sex" id="male">Male
+							</label>
+							<label class="radio-inline"><input type="radio" name="sex" id="female">Female
+							</label>
+						</div>
+
+							<label><input type="radio" name="actLevelGroup" value="1.2" id="actLevelOne">Activity Level One</label>
+							<label><input type="radio" name="actLevelGroup" value="1.375" id="actLevelTwo">Activity Level Two</label>
+							<label><input type="radio" name="actLevelGroup" value="1.55" id="actLevelThree">Activity Level Three</label>
+							<label><input type="radio" name="actLevelGroup" value="1.725" id="actLevelFour">Activity Level Four</label>
+							<label><input type="radio" name="actLevelGroup" value="1.9" id="actLevelFive">Activity Level Five</label>
+
+							<div class="col-sm-6 col-xs-8">
+							<button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#hide" onClick="calorieEstimator()">Estimate Daily Calorie Intake</button>
+							<button type="button" class="btn btn-primary" onClick="reset()">Reset</button>
+						</div>
+
+			</form>
+
+			<div id="calOutput">
+				<p>Your estimated daily calorie input is... </p>
+			</div> 	
+
+		</body>
+		</html>

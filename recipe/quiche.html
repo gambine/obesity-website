@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+		<title> Heart Life </title>
+		<script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js'></script>
+		<link rel = "stylesheet" href = "../reset.css"/>
+		<link rel = "stylesheet" href = "../styleSheetBasic.css"/>
+		<link rel="stylesheet" href="../registration.css" type="text/css" />
+		<link rel="stylesheet" href="../style.css" type="text/css" media="screen" />
+		<style type='text/css'>
+
+#nav {
+	font-size: 20px;
+	background-color: #DE4343;
+	display: block;
+	width: 100%;
+	height: 50px;
+    z-index: 1000;
+    position: relative;
+}
+
+  </style>
+		<script type='text/javascript'>
+//<![CDATA[ 
+
+  $(function() {
+    // Stick the #nav to the top of the window
+    var nav = $('#nav');
+    var navHomeY = nav.offset().top;
+    var isFixed = false;
+    var $w = $(window);
+    $w.scroll(function() {
+        var scrollTop = $w.scrollTop();
+        var shouldBeFixed = scrollTop > navHomeY;
+        if (shouldBeFixed && !isFixed) {
+            nav.css({
+                position: 'fixed',
+                top: 0,
+                left: nav.offset().left,
+                width: nav.width()
+            });
+            isFixed = true;
+        }
+        else if (!shouldBeFixed && isFixed)
+        {
+            nav.css({
+                position: 'static'
+            });
+            isFixed = false;
+        }
+    });
+});
+
+//]]>  
+</script>
+
+	</head>
+	<body>
+<div id = "topSection">
+		<div id = "topDiv1">
+			<div id = "topDiv2">
+				<div id = "websiteLogo">
+					<a href = "../home/home.html"><img src = "../WebsiteLogo.jpg" alt = "HeartLife"></a>
+				</div>
+				<div id = "logIn">
+					<a href="../tools/login in form.html">LOG IN</a>
+					|
+					<a href="../tools/registration form.html">SIGN UP</a>
+				</div><div id ="search">
+ <script>
+  (function() {
+    var cx = '000421825559379877846:ysuiupqabvi';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+        '//cse.google.com/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+</script>
+<gcse:search></gcse:search>
+		</div>
+			</div>
+			
+			<div>
+			<nav id = "nav">
+				<ul id = "homeBar">
+					<li class = "homeBarItems"><a href = "../home/home.html"> Home </a></li>
+					<li class ="line"> | </li>
+					
+					
+					<li class = "homeBarItems"><a href = "../CVD/CVD.html"> Cardiovascular Disease </a> 
+						<ul>
+							<li class='subList1'><a href='#'>Women & Children</a></li>
+							<li class='subList1'><a href='../CVD/Types of CVD.html'>Types of CVD</a></li>
+							<li class='subList1'><a href='#'>Rehabilitation</a></li>
+							<li class='subList1'><a href='#'>Cause of CVD</a></li>
+							<li class='subList1'><a href='#'>Emergencies</a></li>
+							<li class='subList1'><a href='#'>Find a Specialist</a></li>
+						</ul>
+					</li>
+					<li class ="line"> | </li>	
+					
+					<li class = "homeBarItems"><a href = "../prevention/prevention.html"> Prevention </a>
+						<ul>
+							<li class='subList2'><a href='#'>Active Lifestyle</a></li>
+							<li class='subList2'><a href='../prevention/healthyeating.html'>Healthier Food</a></li>
+							<li class='subList2'><a href='#'>Initiative for Change</a></li>
+							<li class='subList2'><a href='#'>Daily Habits</a></li>
+							<li class='subList2'><a href='#'>Medical Screening</a></li>
+							<li class='subList2'><a href='#'>Ongoing Research</a></li>
+						</ul>
+					</li>
+					<li class ="line"> | </li>	
+						
+					<li class = "homeBarItems"><a href = "../treatment/treatment.html"> Treatment </a>
+						<ul>
+							<li class='subList3'><a href='#'>Surgery</a></li>
+							<li class='subList3'><a href='#'>General Treatment</a></li>
+							<li class='subList3'><a href='#'>Specific Treatments</a></li>
+							<li class='subList3'><a href='#'>Medicines</a></li>
+							<li class='subList3'><a href='#'>Therapy</a></li>
+							<li class='subList3'><a href='#'>Treatment Research</a></li>
+						</ul>
+					</li>	
+					<li class ="line"> | </li>
+					<li class = "homeBarItems"><a href = "../tools/tools.html"> Tools </a>
+						<ul>
+							<li class='subList4'><a href='../tools/tools-bmi.html'>BMI Calculator</a></li>
+							<li class='subList4'><a href='../tools/tools-calorie.html'>Calorie Estimator</a></li>
+							
+						</ul>
+					</li>	
+					<li class ="line"> | </li>
+					<li class = "homeBarItems"><a href = "../contactUs/contactUs.html">Contact Us </a></li>
+					<li class ="line"> | </li>
+					<li class = "homeBarItems"><a href = "../aboutUs/aboutUs.html"> About Us </a></li>
+				</ul>
+				<br class = "clearLeft"/>
+			</nav>
+			</div>
+		</div>
+	</div>
+	<div id = "middleSection" style = "height: 1000px;">
+			<div id = "articleTotal">
+				
+				<div>
+					<a href = "../home/home.html" id="Type">HOME</a> > <a href = "../recipe/recipe.html" id="Type">RECIPES</a> > <a href = "../recipe/quiche.html" id="Type"> HAM, LEEK AND SWISS CHEESE QUICHE </a>
+				</div>
+				<div id = "articleHeader">
+					<h3 style = "float: left;">Ham, leek and swiss cheese quiche</h3>
+					<div style = "float: right;">
+					<input type="button" class = "button"
+					  onClick="window.print()" 
+					  value="Print This Page"/>
+					</div>
+				</div>
+				<div id = "article" style = "padding: 12px 3px 3px 10px; margin: 8px; width: 700px;">
+					<div style = "float: right; ">
+					<img src = "../quiche.jpg" style = "height: 200px; width 300px;">
+				</div><pre>Make meal time fun with this creative quiche!
+​Serves 6
+Preparation time: 15 minutes
+cooking time: 30 minutes
+Ingredients
+​Quiche:
+8 eggs
+1 sheet Tick approved puff pastry
+1 leek, pale part only, washed well and thinly sliced
+120g salt reduced lean  ham, shaved and diced
+120g grated reduced fat Swiss cheese
+200ml reduced fat milk
+Pinch of ground nutmeg
+Pepper to taste
+Canola spray oil
+
+The face:
+1 egg, hard boiled and cut in half
+1 cherry tomato cut in half
+6 asparagus spears, cut in half
+¼ avocado
+1 thick cucumber slice
+​1. Pre heat oven to 180°C.
+
+2. Grease a 23cm quiche tin with spray oil, line with pastry sheet and trim edges.
+
+3. Cover with a sheet of non-stick baking paper, fill with baking weights and place into the oven
+ until blind baked (without colouration).
+
+4. Heat a frying pan on gentle heat, spray with oil and add leek. Gently cook without colour until soft.
+
+5. In a bowl, whisk together the milk, eggs, nutmeg and pepper.
+
+6. Once the pastry is blind baked, remove from oven and take out the paper and weights.
+ Fill with leeks, ham and egg mixture, and top with cheese.
+
+7. Place back into the oven for 30 minutes or until filling is just set.
+
+8. Remove quiche from oven and garnish with eggs as eyes, tomato as cheeks, asparagus as hair,
+ avocado as the mouth and cucumber as the nose.
+
+Tip: Serve with a large side salad for everyone to share and salt reduced tomato sauce.
+
+Recipe and image provided courtesy of Australian Egg Corporation
+				</div>
+			</div>
+			<div style = "width: 200px; padding: 3px 10px; border-right: solid #DE4343 2px; height: 1000px;" id = "articleLinks">
+				<div>
+					<h4 style = "border-bottom: solid red 2px;">QUICKLINKS</h4>
+				</div>
+				<ul>
+							<li class = "redbox"><a href="../CVD/what is CVD.html">What is CVD</a></li>
+							<li class = "redbox"><a href="#">Heart Failure</a></li>
+							<li class = "redbox"><a href="#">Prevention</a></li>
+							<li class = "redbox"><a href="#">Treatment</a></li>
+							<li class = "redbox"><a href="#">Cardiac Rehabilitation</a></li>
+							<li class = "redbox"><a href="#">Fact sheets</a></li>
+				</ul>
+				<div id = "relevant"> <!--please move this div to the bottom of the parent div-->
+					<h4 style = "border-bottom: solid red 2px; font-size: 20px;">find out more...</h4>
+					<ul>
+							<li class = "redbox"><a href="#">Tomato, Garlic and Red Capsicum Soup</a></li>
+							<li class = "redbox"><a href="#"></a>Pickled Eggs</li>
+							<li class = "redbox"><a href="#"></a>Turkey Wraps</li>
+							<li class = "redbox"><a href="#"></a>Vegetable Minestrone Soup</li>
+							<li class = "redbox"><a href="#"></a>Egg and Bacon Pie</li>
+							<li class = "redbox"><a href="#"></a>Vegetable and Feta Slice</li>
+							<li class = "redbox"><a href="#"></a>Couscous and Vegetable Stuff Capsicums</li>
+					</ul>
+				</div>
+			</div>
+	</div>
+	<div id =  "bottomSection">
+		<div>
+		<nav>
+			<ul id = "homeBar">
+				<li class = "homeBarItems"><a href = "../home/home.html"> Home </a></li>
+				<li class ="line"> | </li>	
+				<li class = "homeBarItems"><a href = "../CVD/CVD.html"> Cardiovascular Disease </a> </li>
+				<li class ="line"> | </li>	
+				<li class = "homeBarItems"><a href = "../prevention/prevention.html"> Prevention </a></li>
+				<li class ="line"> | </li>	
+				<li class = "homeBarItems"><a href = "../treatment/treatment.html"> Treatment </a></li>
+				<li class ="line"> | </li>	
+				<li class = "homeBarItems"><a href = "../tools/tools.html"> Tools </a></li>
+				<li class ="line"> | </li>	
+				<li class = "homeBarItems"><a href = "../contactUs/contactUs.html">Contact Us </a></li>
+				<li class ="line"> | </li>	
+				<li class = "homeBarItems"><a href = "../aboutUs/aboutUs.html"> About Us </a></li>
+			</ul>
+		</nav>
+		</div>
+		<div id = "bottomGroup">
+		<div id = "bottomSecond">
+		<nav>
+			<ul id = "bottomBar">
+				<li class = "homeBarItems"><a href = "../help-FAQ/help-FAQ.html"> Help/FAQ </a></li>
+				|
+				<li class = "homeBarItems"><a href = "../privacyPolicy/privacyPolicy.html"> Privacy Policy </a></li>
+				|
+				<li class = "homeBarItems"><a href = "../feedbackForm/feedbackForm.html"> Feedback Form </a></li>
+				|
+				<li class = "homeBarItems"><a href = "../siteMap/siteMap.html"> Sitemap </a></li>
+			
+			</ul>
+		</nav>
+		</div>
+			<div id = "bottomLogo">
+				<a href = "../home/home.html"><img src = "../WebsiteLogo.gif" alt = "HeartLife"></a>
+			</div>
+		</div>
+		</div>
+	</body>
+</html>

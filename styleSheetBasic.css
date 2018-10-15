@@ -1,0 +1,514 @@
+#topSection{
+	background-image: url(NavBackground.jpg);
+	width: 112%;
+	height: 210px;
+	font-family: Baskerville, 'Baskerville Old Face', 'Hoefler Text', Garamond, 'Times New Roman', serif;
+	color: white;
+}
+
+#navWrap {
+	background-image: url(NavBackground.jpg);
+	width: 100%
+	height: 100px;
+}
+
+#nav {
+	font-size: 20px;
+	background-image: url(NavBackground.jpg);
+	display: block;
+}
+
+ol {
+	list-style-type: decimal;
+}
+
+/* prevention stuff begin */
+
+#recipe {
+  background:url(cafefood.jpeg) no-repeat;
+  background-size:300px 260px;
+  background-position:-80px 0px;
+  height:150px;
+  width:150px;
+  border-radius:50%;
+  overflow:hidden;
+  padding: 20px;
+  border: solid 5px #DE4343;
+}
+
+#exercise {
+	background:url(runman3.jpg) no-repeat;
+  background-size:300px 260px;
+  background-position:-80px 0px;
+  height:150px;
+  width:150px;
+  border-radius:50%;
+  overflow:hidden;
+  padding: 20px;
+  border: solid 5px #DE4343;
+}
+
+#meeting {
+	background:url(meeting.jpeg) no-repeat;
+  background-size:300px 260px;
+  background-position:-80px 0px;
+  height:150px;
+  width:150px;
+  border-radius:50%;
+  overflow:hidden;
+  padding: 20px;
+  border: solid 5px #DE4343;
+}
+
+#research {
+	background:url(petri.jpeg) no-repeat;
+  background-size:300px 260px;
+  background-position:-80px 0px;
+  height:150px;
+  width:150px;
+  border-radius:50%;
+  overflow:hidden;
+  padding: 20px;
+  border: solid 5px #DE4343;
+}
+
+#habits {
+	background:url(smoking.jpeg) no-repeat;
+  background-size:300px 260px;
+  background-position:-80px 0px;
+  height:150px;
+  width:150px;
+  border-radius:50%;
+  overflow:hidden;
+  padding: 20px;
+  border: solid 5px #DE4343;
+}
+
+#screening {
+	background:url(screening.jpeg) no-repeat;
+  background-size:300px 260px;
+  background-position:-60px -30px;
+  height:150px;
+  width:150px;
+  border-radius:50%;
+  overflow:hidden;
+  padding: 20px;
+  border: solid 5px #DE4343;
+}
+
+/* prevention stuff end */
+
+/*cvd stuff begin*/
+
+#typeCVD {
+	background:url(CVDtype.jpg) no-repeat;
+  background-size:300px 260px;
+  background-position:-60px -30px;
+  height:150px;
+  width:150px;
+  border-radius:50%;
+  overflow:hidden;
+  padding: 20px;
+  border: solid 5px #DE4343;
+}
+#womenc {
+	background:url(CVDwmn.jpg) no-repeat;
+  background-size:300px 260px;
+  background-position:-60px -30px;
+  height:150px;
+  width:150px;
+  border-radius:50%;
+  overflow:hidden;
+  padding: 20px;
+  border: solid 5px #DE4343;
+}
+#causes {
+	background:url(CVDcause.jpg) no-repeat;
+  background-size:300px 260px;
+  background-position:-60px -30px;
+  height:150px;
+  width:150px;
+  border-radius:50%;
+  overflow:hidden;
+  padding: 20px;
+  border: solid 5px #DE4343;
+}
+#rehab {
+	background:url(CVDrehab.jpg) no-repeat;
+  background-size:300px 260px;
+  background-position:-60px -30px;
+  height:150px;
+  width:150px;
+  border-radius:50%;
+  overflow:hidden;
+  padding: 20px;
+  border: solid 5px #DE4343;
+}
+#find {
+	background:url(CVDspec.jpg) no-repeat;
+  background-size:300px 260px;
+  background-position:-60px -30px;
+  height:150px;
+  width:150px;
+  border-radius:50%;
+  overflow:hidden;
+  padding: 20px;
+  border: solid 5px #DE4343;
+}
+#emergency {
+	background:url(CVDemergency.jpg) no-repeat;
+  background-size:300px 260px;
+  background-position:-55px -35px;
+  height:150px;
+  width:150px;
+  border-radius:50%;
+  overflow:hidden;
+  padding: 20px;
+  border: solid 5px #DE4343;
+}
+
+/*cvd stuff end*/
+
+/*treatment stuff begin*/
+
+#genTreat {
+	background:url(gentreat.jpg) no-repeat;
+  background-size:300px 260px;
+  background-position:-55px -35px;
+  height:150px;
+  width:150px;
+  border-radius:50%;
+  overflow:hidden;
+  padding: 20px;
+  border: solid 5px #DE4343;
+}
+
+#medicine {
+	background:url(medicine.jpg) no-repeat;
+  background-size:300px 260px;
+  background-position:-55px -35px;
+  height:150px;
+  width:150px;
+  border-radius:50%;
+  overflow:hidden;
+  padding: 20px;
+  border: solid 5px #DE4343;
+}
+
+#surgery {
+	background:url(surgery.jpg) no-repeat;
+  background-size:300px 260px;
+  background-position:-55px -35px;
+  height:150px;
+  width:150px;
+  border-radius:50%;
+  overflow:hidden;
+  padding: 20px;
+  border: solid 5px #DE4343;
+}
+
+#specTreat {
+	background:url(spectreat.png) no-repeat;
+  background-size:300px 260px;
+  background-position:-55px -35px;
+  height:150px;
+  width:150px;
+  border-radius:50%;
+  overflow:hidden;
+  padding: 20px;
+  border: solid 5px #DE4343;
+}
+
+#therapy {
+	background:url(therapy.jpg) no-repeat;
+  background-size:300px 260px;
+  background-position:-55px -35px;
+  height:150px;
+  width:150px;
+  border-radius:50%;
+  overflow:hidden;
+  padding: 20px;
+  border: solid 5px #DE4343;
+}
+
+/*treatment stuff end*/
+
+#topDiv1 {
+	margin: 0 auto;
+	width: 1500px;
+	height: 200px;
+}
+
+#topDiv2 {
+	margin: 0 auto; 
+	width: 1250px; 
+	height: 130px;
+}
+
+#articleLink {
+	color: crimson;
+}
+
+#websiteLogo {
+	float: left;
+	margin-top: 20px;
+	margin-left: 15px;
+}
+
+#logIn{
+	float: right;
+	margin-top: 40px;
+	margin-right:50px;
+}
+h3{
+	font-size: 41px;
+	text-align: left;
+	padding: 0px 0px 10px 0px;
+}
+
+#bottomSection{
+	display: block;
+	margin: 0 auto;
+	width: 75%;
+}
+
+#homeBar{
+	color: white;
+	text-align: center;
+	padding: 20px 0px;
+	width:113%;
+}
+
+
+
+.homeBarItems{
+	display: inline;
+	padding: 25px 22px;
+	color: white;
+	text-transform: uppercase;
+}
+
+.homeBarItems:hover{
+	color: yellowgreen;
+}
+
+#bottomBar{
+	margin-left:251px;
+	display:inline;
+	color: white;
+	right: 100px;
+}
+
+.redbox{
+	padding: 6px 6px;
+	border: 2px solid #DE4343;
+	margin: 10px;
+	color: #DE4343;
+	text-align: center;
+}
+
+.redbox a{
+	color: #DE4343;
+}
+
+#articleTotal{
+	float: right;
+	width: 815px;
+	display: inline-block;
+	overflow: auto;
+	padding: 0px 15px 0px 10px;
+}
+
+a{
+	text-decoration: none;
+	color:white;
+}
+
+a:hover{
+	color: yellowgreen;
+}
+
+
+.calorie {
+	display: block;
+}
+.calorie:hover {
+	display: block;
+	background-image:"../Calorie Counter Click.png";
+}
+
+h1{
+	position: relative;
+	right: 24%;
+	top: 15%;
+	padding: 30px 0px 20px 0px;
+	font-size: 45px;
+	color: white;
+	text-align: center;
+}
+
+h2{
+	position: relative;
+	right: 33%;
+	padding: 20px 0px 30px 0px;
+	font-size: 45px;
+	color: white;
+	text-align: center;
+}
+
+h4{
+	position: relative;
+	padding: 10px 10px 10px 18px;
+	font-size: 28px;
+	color: #DE4343;
+}
+
+h5 {
+	padding: 10px 20px;
+	font-size: 21px;
+	text-decoration: underline;
+}
+
+h6{
+	margin-left:1200px;
+	font-size:17px;
+}
+
+/*li:hover{
+	color: greenyellow;
+}*/
+
+.button {
+	color: #DE4343;
+	font-size: 14px;
+	background-color: transparent;
+	border: none;
+	border: 2px solid #DE4343;
+	padding: 2px;
+}
+
+img{
+	display: block;
+	margin: 0 auto;
+}
+
+#surfer{
+	padding-top: 20px;
+}
+
+#middleSection{
+	padding: 30px 0px;
+	margin: 0px auto;
+	width: 1070px;
+	height: auto;
+	background-color: rgba(255, 255, 255, 0.84);
+}
+
+element {
+    text-align: center;
+}
+
+html{
+	background-image: url(Background.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+
+#bottomGroup {
+	height: 200px;
+	width: 1300px;
+	margin: 0 auto;
+}
+
+#bottomSecond {
+	float: right;
+	margin-right: 130px;
+	margin-top: 30px;
+	margin-left: 0px;
+	right: 100px;
+	position: relative;
+}
+
+#bottomLogo {
+	float: left;
+	padding: 0px;
+	margin-left: 90px;
+	margin-bottom: 30px;
+	padding: 0px 0px 30px 0px;
+	position: relative;
+	top: 0px;
+}
+
+#medicalNews {
+	overflow-y:scroll; 
+	height: 480px; 
+	width: 570px;
+	padding: 0px 0px;
+	margin: 20px; 
+	float: right;
+	margin-top: 4px;
+	margin-right: 10px;
+	margin-left:109px;
+	border: solid 1px #d4d4d4;
+}
+
+#article {
+	padding: 5px 5px 5px 5px;
+	margin: 0px 0px 10px 0px;
+	font-size: 18px;
+}
+
+.newslink a:hover{
+	color: white;
+}
+
+.bmi {
+	width: 270px;
+	height: 181px;
+	display: block;
+	padding: 20px 20px;
+	background-image: url(runman.jpg);
+}
+
+.bmi:hover {
+	background-image: url(runman1.jpg);
+}
+
+.calorie {
+	width: 270px;
+	height: 173px;
+	display: block;
+	padding: 20px 20px;
+	background-image: url(calorieb.jpg);
+}
+
+.calorie:hover {
+	background-image: url(caloriec.jpg);
+}
+
+#search{
+	position: absolute;
+	right: 420px;
+	top: 70px;
+	width: 300px;
+	background-image: url(NavBackground.jpg);
+	
+}
+
+#articleHeader{
+	height: 40px;
+	border-bottom: solid red 2px;
+	padding: 10px 10px;
+	margin: 0px 0px 10px 0px;
+}
+
+
+#quicklinks {
+	float: right;
+	color: red;
+	width: 300px;
+	padding: 0px 10px 10px 10px;
+	margin: 0px;
+	margin-bottom: 0px;
+	display: inline-block;
+]
